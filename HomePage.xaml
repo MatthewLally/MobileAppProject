@@ -1,0 +1,41 @@
+﻿<Page
+    x:Class="MobileAppProject.HomePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MobileAppProject"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.Resources>
+        <Style TargetType="TextBlock" x:Key="Desc">
+            <Setter Property="FontSize" Value="18"></Setter>
+            <Setter Property="Foreground" Value="#F8CF8B"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+        </Style>
+    </Page.Resources>
+    <Grid Background="#3A4F41" >
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <ScrollViewer
+                Grid.Row="0" 
+                Height="600"
+                VerticalScrollBarVisibility="Auto"
+            >
+
+            <StackPanel Orientation="Vertical" VerticalAlignment="Stretch" >
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <TextBlock Name="Intro"
+                           TextWrapping="Wrap"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Text="Welcome to the Galway soccer app, please click one of the links on the side to view information about the teams in Galways five junior soccer divisons!"/>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>
