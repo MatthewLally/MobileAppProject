@@ -25,37 +25,6 @@ namespace MobileAppProject
         public MainPage()
         {
             this.InitializeComponent();
-            myFrame.Navigate(typeof(HomePage));
         }
-        private void MainMenuBtn_Click(object sender, RoutedEventArgs e)
-        {
-            MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
-        }
-
-        private void PremierDivisonBtn_Click(object sender, RoutedEventArgs e)
-        {
-            myFrame.Navigate(typeof(PremierDivison));
-        }
-
-        private void DivisonOneBtn_Click(object sender, RoutedEventArgs e)
-        {
-            myFrame.Navigate(typeof(DivisonOne));
-        }
-
-        private void DivisonTwoBtn_Click(object sender, RoutedEventArgs e)
-        {
-            myFrame.Navigate(typeof(DivisonTwo));
-        }
-
-        private void DivisonThreeBtn_Click(object sender, RoutedEventArgs e)
-        {
-            myFrame.Navigate(typeof(Divison3));
-        }
-
-        private void DivisonFourBtn_Click(object sender, RoutedEventArgs e)
-        {
-            myFrame.Navigate(typeof(DivisonFour));
-        }
-
     }
 }
