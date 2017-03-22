@@ -1,0 +1,51 @@
+﻿<Page
+    x:Class="MobileAppProject.Pages.HomePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MobileAppProject.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="0,17,0,28" HorizontalAlignment="Center">
+            <TextBlock Text="Galway Soccer Guide" Margin="0,-7,0,0" FontSize="30"/>
+        </StackPanel>
+
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <StackPanel Orientation="Vertical" VerticalAlignment="Stretch" >
+                <Image Name="GalwayImage" Source="Assets\GalwayImage.jpg" />
+                <TextBlock Name="InfoTxt"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           TextWrapping="Wrap"
+                           Text="Welcome to the Galway soccer guide, please click on of the links to view information on the teams currently playing football in Galways five junior football divisons and view the locations of the clubs!" />
+            </StackPanel>
+
+            <StackPanel Width="400" Orientation="Vertical" Grid.Row="0">
+                <Button Name="PremierDivison"  Margin="100,0,0,0" Content="View Premier Division"  Click="Premier_Click"/>
+                <Button Name="DivisonOne" Margin="100,0,0,0" Content="View Divison One" Click="DivisonOne_Click"/>
+                <Button Name="DivisonTwo" Margin="100,0,0,0" Content="View Divison Two" Click="DivisonTwo_Click"/>
+                <Button Name="DivisonThree" Margin="100,0,0,0" Content="View Divison Three" Click="DivisonThree_Click"/>
+                <Button Name="DivisonFour" Margin="100,0,0,0" Content="View Divison Four" Click="DivisonFour_Click"/>
+
+
+                <Frame Name="MyFrame">
+
+                </Frame>
+
+
+            </StackPanel>
+        </Grid>
+    </Grid>
+
+</Page>
