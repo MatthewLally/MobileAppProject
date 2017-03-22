@@ -26,5 +26,10 @@ namespace MobileAppProject.Pages
         {
             this.InitializeComponent();
         }
+        private void Home_Click(object sender, RoutedEventArgs e)
+        {
+            //bring user back to the main page
+            Frame.Navigate(typeof(HomePage));
+        }
     }
 }

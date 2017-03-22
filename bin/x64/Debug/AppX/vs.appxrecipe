@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-22T17:11:58.881</Modified>
+      <Modified>2017-03-22T17:44:17.413</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\bin\x64\Debug\MobileAppProject.exe">
       <PackagePath>entrypoint\MobileAppProject.exe</PackagePath>
-      <Modified>2017-03-22T17:11:46.524</Modified>
+      <Modified>2017-03-22T17:44:10.468</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -492,7 +492,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\bin\x64\Debug\MobileAppProject.xr.xml">
       <PackagePath>MobileAppProject.xr.xml</PackagePath>
-      <Modified>2017-03-22T17:11:45.306</Modified>
+      <Modified>2017-03-22T17:44:09.919</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -501,11 +501,11 @@
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-22T17:11:56.217</Modified>
+      <Modified>2017-03-22T17:44:16.202</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\bin\x64\Debug\Core\MobileAppProject.exe">
       <PackagePath>MobileAppProject.exe</PackagePath>
-      <Modified>2017-03-22T17:11:58.856</Modified>
+      <Modified>2017-03-22T17:44:17.404</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

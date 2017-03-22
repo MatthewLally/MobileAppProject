@@ -6,6 +6,7 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Content" />
+      <RootProperty Name="BottomAppBar" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Background" />
@@ -17,7 +18,20 @@
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="MobileAppProject.MainPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Frame">
+      <RootProperty Name="Name" />
+    </RootType>
     <RootType FullName="MobileAppProject.Pages.DivisonFour" />
+    <RootType FullName="Windows.UI.Xaml.Controls.CommandBar">
+      <RootProperty Name="Content" />
+      <RootProperty Name="PrimaryCommands" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
+      <RootProperty Name="Name" />
+      <RootProperty Name="Icon" />
+      <RootProperty Name="Label" />
+      <RootEvent Name="Click" />
+    </RootType>
     <RootType FullName="MobileAppProject.Pages.DivisonOne" />
     <RootType FullName="MobileAppProject.Pages.DivisonThree" />
     <RootType FullName="MobileAppProject.Pages.DivisonTwo" />
@@ -38,9 +52,6 @@
       <RootProperty Name="Content" />
       <RootEvent Name="Click" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Frame">
-      <RootProperty Name="Name" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Name" />
       <RootProperty Name="Source" />
@@ -49,6 +60,7 @@
       <RootProperty Name="Name" />
       <RootProperty Name="Margin" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="TextWrapping" />
       <RootProperty Name="Text" />
       <RootProperty Name="FontSize" />
     </RootType>
