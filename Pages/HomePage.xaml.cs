@@ -26,6 +26,11 @@ namespace MobileAppProject.Pages
         {
             this.InitializeComponent();
         }
+        private void HamburgerButton_Click(Object sender, RoutedEventArgs e)
+        {
+            MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
+
+        }
 
         private void Premier_Click(object sender, RoutedEventArgs e)
         {
@@ -50,6 +55,6 @@ namespace MobileAppProject.Pages
         private void DivisonFour_Click(object sender, RoutedEventArgs e)
         {
             MyFrame.Navigate(typeof(DivisonFour));
-        }
+        } 
     }
 }
