@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-23T15:59:07.051</Modified>
+      <Modified>2017-03-27T15:30:41.577</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\bin\x64\Debug\MobileAppProject.exe">
       <PackagePath>entrypoint\MobileAppProject.exe</PackagePath>
-      <Modified>2017-03-23T15:59:01.027</Modified>
+      <Modified>2017-03-27T15:30:27.732</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -448,13 +448,21 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-22T22:11:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\GalwayImage.jpg">
-      <PackagePath>Assets\GalwayImage.jpg</PackagePath>
-      <Modified>2017-03-22T14:55:04.883</Modified>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\athenry.png">
+      <PackagePath>Assets\athenry.png</PackagePath>
+      <Modified>2017-03-23T16:25:52.047</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2017-03-15T13:22:43.163</Modified>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\corribceltic.png">
+      <PackagePath>Assets\corribceltic.png</PackagePath>
+      <Modified>2017-03-27T13:41:35.284</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\Mervue.png">
+      <PackagePath>Assets\Mervue.png</PackagePath>
+      <Modified>2017-03-27T12:51:46.858</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\salthill.png">
+      <PackagePath>Assets\salthill.png</PackagePath>
+      <Modified>2017-03-27T14:43:43.083</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -490,9 +498,25 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T17:30:08.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\GalwayImage.jpg">
+      <PackagePath>Assets\GalwayImage.jpg</PackagePath>
+      <Modified>2017-03-22T14:55:04.883</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\stbernads.jpg">
+      <PackagePath>Assets\stbernads.jpg</PackagePath>
+      <Modified>2017-03-27T13:52:03.525</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\west.jpg">
+      <PackagePath>Assets\west.jpg</PackagePath>
+      <Modified>2017-03-27T13:21:30.683</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2017-03-15T13:22:43.163</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\bin\x64\Debug\MobileAppProject.xr.xml">
       <PackagePath>MobileAppProject.xr.xml</PackagePath>
-      <Modified>2017-03-23T15:58:20.072</Modified>
+      <Modified>2017-03-27T12:44:11.327</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -501,11 +525,11 @@
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-23T15:59:05.999</Modified>
+      <Modified>2017-03-27T15:30:37.389</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\bin\x64\Debug\Core\MobileAppProject.exe">
       <PackagePath>MobileAppProject.exe</PackagePath>
-      <Modified>2017-03-23T15:59:07.042</Modified>
+      <Modified>2017-03-27T15:30:41.567</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

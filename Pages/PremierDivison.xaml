@@ -6,6 +6,16 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
+    <Page.Resources>
+        <Style TargetType="TextBlock" x:Key="Club">
+            <Setter Property="FontSize" Value="36"></Setter>
+            <Setter Property="Foreground" Value="#F8CF8B"></Setter>
+            </Style>
+        <Style TargetType="TextBlock" x:Key="Desc">
+            <Setter Property="FontSize" Value="18"></Setter>
+            <Setter Property="Foreground" Value="#F8CF8B"></Setter>
+        </Style>
+    </Page.Resources>
     <Page.BottomAppBar>
         <CommandBar>
             <CommandBar.Content>
@@ -14,8 +24,153 @@
             <AppBarButton Name="Home" Icon="Home" Label="Home" Click="Home_Click"/>
         </CommandBar>
     </Page.BottomAppBar>
-    <Frame Name="MyFrame">
+    <Grid Background="#3A4F41">
+        <ScrollViewer
+                Grid.Row="0" 
+                Height="600"
+                VerticalScrollBarVisibility="Auto"
+            >
 
-    </Frame>
+            <StackPanel Orientation="Vertical" VerticalAlignment="Stretch" >
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image Name="athenryImg" Source="/Assets/athenry.png" />
+                <TextBlock
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Club}"
+                
+                           Text="Athenry Football Club" />
+                <TextBlock Name="athenryBio"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Desc}"
+                           TextWrapping="Wrap"
+                           Text="Founded in 1971, Athenry football club are based in Moanbaun, Athenry, Co. Galway. Athenry Football Club facilities comprise of a main club house with a fully equipped gym with showering facilities, six dressing rooms and also includes meeting rooms. The club has an all weather astro turf pitch which can be rented out." />
+                <Image Name="mervueImg" Source="/Assets/Mervue.png" />
+                <TextBlock
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Club}"
+                
+                           Text="Mervue United Football Club" />
+                <TextBlock Name="mervueBio"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Desc}"
+                           TextWrapping="Wrap"
+                           Text="Founded in 1960, Mervue United football club are based in Mervue, Co. Galway. Mervue United Football Club facilities comprise of a main club house with a fully equipped gym with showering facilities, twelve dressing rooms and also includes meeting rooms. The club has an all weather astro turf pitch which can be rented out. The club has had many players move to play football in England and many players associated with the club have been capped for the Irish team at junior and senior levels" />
+                <Image Name="westImg" Source="/Assets/west.jpg" />
+                <TextBlock
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Club}"
+                
+                           Text="West United Football Club" />
+                <TextBlock Name="westBio"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Desc}"
+                           TextWrapping="Wrap"
+                           Text="Founded in 1945, West United football club are based in Claddagh, Co. Galway. West United Football Club facilities comprise of a main club house with showering facilities, dressing rooms and also includes meeting rooms. The club plays its home matches at O Connor Park known as Swamp . The club has had a very long and succesful history in the Galway leagues and cup competitions." />
+                <Image Name="corribCelticImg" Source="/Assets/corribceltic.png" />
+                <TextBlock
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Club}"
+                
+                           Text="Corrib Celtic Football Club" />
+                <TextBlock Name="corribCelticBio"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Desc}"
+                           TextWrapping="Wrap"
+                           Text="Founded in 1985, Corrib Celtic football club are based in Annaghdown, Co. Galway. Corrib Celtic Football Club is named after the nearby Lough Corrib. The club plays it home games in Gort Scully." />
+                <Image Name="stBernardsImg" Source="/Assets/stbernads.jpg" />
+                <TextBlock
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Club}"
+                
+                           Text="St Bernards Football Club" />
+                <TextBlock Name="stBernardsBio"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Desc}"
+                           TextWrapping="Wrap"
+                           Text="Founded in 1972, St Bernards football club are based in Abbeyknockmoy, Co. Galway. St Bernards Football Club won the Galway Premier Divison Title for the first time in 2016. The clubs colours of  yellow and blue take inspiration from a Crystal Palace away kit of the early 1970s." />
+                <Image Name="salthillImg" Source="/Assets/salthill.png" />
+                <TextBlock
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Club}"
+                
+                           Text="Salthill Devon Football Club" />
+                <TextBlock Name="salthillBio"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Desc}"
+                           TextWrapping="Wrap"
+                           Text="Salthill Devon Football Club, founded in 1947 as the Salthill Crusaders, became Salthill Athletic in 1950 and finally Salthill Devon Football Club in 1977. Today it is a nationally-recognised brand, with a reputation as one of the most progressive, organised and successful clubs in the country.Salthill Devon Football Club, play their home games in the first-class soccer facility at Drom Soccer Park, Drom East, Rahoon, Galway.The Club has enjoyed considerable success on the playing field, reaching and winning National Finals at all levels, and regularly making it into the last eight of the national competitions." />
+                <Image Name="corribRangersImg" Source="/Assets/salthill.png" />
+                <TextBlock
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Club}"
+                
+                           Text="Corrib Rangers Football Club" />
+                <TextBlock Name="corribRangersBio"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Desc}"
+                           TextWrapping="Wrap"
+                           Text="Corrib Rangers Football Club, founded in 1975 are based in the westside of Galway city. The club is named after the nearby corrib park and is very succesful and has spent many seasosns in the Premier Divison and has been succesful in many competitions." />
+                <Image Name="colemanstownImage" Source="/Assets/salthill.png" />
+                <TextBlock
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Club}"
+                
+                           Text="Colemanstown United" />
+                <TextBlock Name="colemanstownBio"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Desc}"
+                           TextWrapping="Wrap"
+                           Text="Colemanstown United was founded in 1982. The club has to date played a major role in the affairs of the community which is based past Monivea in north Galway. The club facilities include a  fully drained playing pitch, adjacent floodlit training pitch, shower rooms, meeting rooms, fully equipped kitchen facility and a 200 seater stadium "/>
+                <Image Name="hibsImage" Source="/Assets/salthill.png" />
+                <TextBlock
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Club}"
+                
+                           Text="Galway Hibernians" />
+                <TextBlock Name="Hibs"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Desc}"
+                           TextWrapping="Wrap"
+                           Text="Galway Hibernians were founded in 1982. Called Hibs by most the club has some impressive including an astro turf, a floodlight and fully drained pitch and a state of the art new clubhouse with a range of facilities. The club has been very succesfully and has won many trophies. The club is based in Bohermore , Galway." />
+                <Image Name="loughreaImage" Source="/Assets/salthill.png" />
+                <TextBlock
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Club}"
+                
+                           Text="Loughrea Rams" />
+                <TextBlock Name="Loughrea"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Desc}"
+                           TextWrapping="Wrap"
+                           Text="Loughrea rams are the newest club in the Premier Divison. The club was founded in 2011 and achived promation to the Premier Divison for the current 16/17 season.All of the clubs home fixtures are played Sunday afternoon at 1.30pm in conjunction with Galway F.A. . The club are  playing their home fixtures in Bushfield, thanks to Loughrea Athletics Club who allow the club to use their facilities. " />
+            
+                           
+
+            </StackPanel>
+
+
+        </ScrollViewer>
+    </Grid>
+
 
 </Page>

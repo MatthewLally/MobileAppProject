@@ -334,11 +334,17 @@
     <AppxPackagedFile Include="C:\Users\Owner\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\GalwayImage.jpg">
-      <PackagePath>Assets\GalwayImage.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\athenry.png">
+      <PackagePath>Assets\athenry.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\corribceltic.png">
+      <PackagePath>Assets\corribceltic.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\Mervue.png">
+      <PackagePath>Assets\Mervue.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\salthill.png">
+      <PackagePath>Assets\salthill.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -366,6 +372,18 @@
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\GalwayImage.jpg">
+      <PackagePath>Assets\GalwayImage.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\stbernads.jpg">
+      <PackagePath>Assets\stbernads.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\west.jpg">
+      <PackagePath>Assets\west.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\bin\x64\Debug\MobileAppProject.xr.xml">
       <PackagePath>MobileAppProject.xr.xml</PackagePath>

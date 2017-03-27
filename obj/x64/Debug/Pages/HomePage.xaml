@@ -42,7 +42,11 @@
         </SplitView.Pane>
         <SplitView.Content>
             <Frame x:ConnectionId='8' Name="MyFrame">
-                <TextBlock Text="Galway Soccer Guide" Margin="0,-7,0,0" FontSize="30"  HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBlock TextWrapping ="Wrap" Text="Welcome to the Galway soccer guide, please click on of the links to view information on the teams currently playing football in Galways five junior football divisons and view the locations of the clubs!" 
+                           Margin="0, -7, 0, 0"
+                           FontSize="20"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"/> 
 
 
             </Frame>
