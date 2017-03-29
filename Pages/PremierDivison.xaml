@@ -111,7 +111,7 @@
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="Salthill Devon Football Club, founded in 1947 as the Salthill Crusaders, became Salthill Athletic in 1950 and finally Salthill Devon Football Club in 1977. Today it is a nationally-recognised brand, with a reputation as one of the most progressive, organised and successful clubs in the country.Salthill Devon Football Club, play their home games in the first-class soccer facility at Drom Soccer Park, Drom East, Rahoon, Galway.The Club has enjoyed considerable success on the playing field, reaching and winning National Finals at all levels, and regularly making it into the last eight of the national competitions." />
-                <Image Name="corribRangersImg" Source="/Assets/salthill.png" />
+                <Image Name="corribRangersImg" Source="/Assets/corribrangers.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
@@ -124,7 +124,7 @@
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="Corrib Rangers Football Club, founded in 1975 are based in the westside of Galway city. The club is named after the nearby corrib park and is very succesful and has spent many seasosns in the Premier Divison and has been succesful in many competitions." />
-                <Image Name="colemanstownImage" Source="/Assets/salthill.png" />
+                <Image Name="colemanstownImage" Source="/Assets/colemanstown.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
@@ -137,7 +137,7 @@
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="Colemanstown United was founded in 1982. The club has to date played a major role in the affairs of the community which is based past Monivea in north Galway. The club facilities include a  fully drained playing pitch, adjacent floodlit training pitch, shower rooms, meeting rooms, fully equipped kitchen facility and a 200 seater stadium "/>
-                <Image Name="hibsImage" Source="/Assets/salthill.png" />
+                <Image Name="hibsImage" Source="/Assets/galwayhibs.png" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
@@ -150,7 +150,7 @@
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="Galway Hibernians were founded in 1982. Called Hibs by most the club has some impressive including an astro turf, a floodlight and fully drained pitch and a state of the art new clubhouse with a range of facilities. The club has been very succesfully and has won many trophies. The club is based in Bohermore , Galway." />
-                <Image Name="loughreaImage" Source="/Assets/salthill.png" />
+                <Image Name="loughreaImage" Source="/Assets/loughrea.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
@@ -167,6 +167,7 @@
                            
 
             </StackPanel>
+            
 
 
         </ScrollViewer>

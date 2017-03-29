@@ -6,6 +6,16 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
+    <Page.Resources>
+        <Style TargetType="TextBlock" x:Key="Club">
+            <Setter Property="FontSize" Value="36"></Setter>
+            <Setter Property="Foreground" Value="#F8CF8B"></Setter>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="Desc">
+            <Setter Property="FontSize" Value="18"></Setter>
+            <Setter Property="Foreground" Value="#F8CF8B"></Setter>
+        </Style>
+    </Page.Resources>
     <Page.BottomAppBar>
         <CommandBar>
             <CommandBar.Content>
@@ -14,8 +24,126 @@
             <AppBarButton x:ConnectionId='1' Name="Home" Icon="Home" Label="Home"                   />
         </CommandBar>
     </Page.BottomAppBar>
-    <Frame x:ConnectionId='2' Name="MyFrame">
+    <Grid Background="#3A4F41">
+        <ScrollViewer
+                Grid.Row="0" 
+                Height="600"
+                VerticalScrollBarVisibility="Auto"
+            >
 
-    </Frame>
+            <StackPanel Orientation="Vertical" VerticalAlignment="Stretch" >
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image x:ConnectionId='2' Name="bohsImg" Source="/Assets/bohs.jpg" />
+                <TextBlock
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Club}"
+                
+                           Text="Galway Bohemians Football Club" />
+                <TextBlock x:ConnectionId='3' Name="bohsBio"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Desc}"
+                           TextWrapping="Wrap"
+                           Text="Founded in 1932, Galway Bohemians Football club are based in Knocknacarra, Galway City. The club is the oldest club in Galway and is nicknamed Bohs which is the name many know the club. The club plays their home matches at Millers Lane. The club was very succesful in its early years and although not as succesful as it previously was it is still a force to be reckoned with in Galway soccer." />
+
+
+                <Image x:ConnectionId='4' Name="merlinImg" Source="/Assets/merlinwoods.png" />
+                <TextBlock
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Club}"
+                
+                           Text="Merlin Woods/Medtronic  United Football Club" />
+                <TextBlock x:ConnectionId='5' Name="westCoastBio"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Desc}"
+                           TextWrapping="Wrap"
+                           Text="Based in the east side of Galway City in Doughiska, Merlin Woods/Medtronic Football Club was founded with the  aim to reach out to many communities and engage, develop, and include all its people regardless of background, colour, ability, gender or age. This area of Galway has a large non Irish population so the club was set up to help these feel like part of Galway " />
+                <Image x:ConnectionId='6' Name="mervueImg" Source="/Assets/Mervue.png" />
+                <TextBlock
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Club}"
+                
+                           Text="Mervue United B" />
+                <TextBlock x:ConnectionId='7' Name="mervuebBio"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Desc}"
+                           TextWrapping="Wrap"
+                           Text="Founded in 1960, Mervue United football club are based in Mervue, Co. Galway. Mervue United Football Club facilities comprise of a main club house with a fully equipped gym with showering facilities, twelve dressing rooms and also includes meeting rooms. The club has an all weather astro turf pitch which can be rented out. The club has had many players move to play football in England and many players associated with the club have been capped for the Irish team at junior and senior levels" />
+                <Image x:ConnectionId='8' Name="colgaImg" Source="/Assets/GalwayImage.jpg" />
+                <TextBlock
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Club}"
+                
+                           Text="Colga Football Club" />
+                <TextBlock x:ConnectionId='9' Name="colgaBio"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Desc}"
+                           TextWrapping="Wrap"
+                           Text="Colga Football Club is an association football (soccer) club in south County Galway. It is a community voluntary organisation run by its members for the benefit of their families and neighbours. The club was founded in 1996 and is based in Clarenbridge village. Colga aims to provide an environment that promotes; Inclusivity, Opportunity, Teamwork, Development and most of all Fun " />
+                <Image x:ConnectionId='10' Name="hibsbImg" Source="/Assets/galwayhibs.png" />
+                <TextBlock
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Club}"
+                
+                           Text="Galway Hibernians B" />
+                <TextBlock x:ConnectionId='11' Name="hibsbBio"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Desc}"
+                           TextWrapping="Wrap"
+                           Text="Galway Hibernians were founded in 1982. Called Hibs by most the club has some impressive including an astro turf, a floodlight and fully drained pitch and a state of the art new clubhouse with a range of facilities. The club has been very succesfully and has won many trophies. The club is based in Bohermore , Galway. " />
+                <Image x:ConnectionId='12' Name="kiltullaghImg" Source="/Assets/kiltullagh.jpg" />
+                <TextBlock
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Club}"
+                
+                           Text="Kiltullagh Pioneers Football Club" />
+                <TextBlock x:ConnectionId='13' Name="killtullaghBio"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Desc}"
+                           TextWrapping="Wrap"
+                           Text="Kiltullagh Pioneers are a football team located in Kiltullagh, Athenry, Co. Galway. The club plays in white and blue jerseys and is a great sense of pride to the local community " />
+                <Image x:ConnectionId='14' Name="dynamoBluesImg" Source="/Assets/dynamoblues.jpg" />
+                <TextBlock
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Club}"
+                
+                           Text="Dynamo Blues Football Club" />
+                <TextBlock x:ConnectionId='15' Name="dynamoBluesBio"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Desc}"
+                           TextWrapping="Wrap"
+                           Text="Dynamo Blues F.C. is  based in Tuam, County Galway. They were founded in 1978. Their senior men's team competes in the Galway and District League. They remain the only club from Tuam and the surrounding areas to have won the Galway and District League Premier Division.The club is nicknamed the blues and plays its home games at College Field. " />
+                <Image x:ConnectionId='16' Name="knocknacarraImg" Source="/Assets/kfc.jpg" />
+                <TextBlock
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Club}"
+                
+                           Text="Knocknacarra Football Club" />
+                <TextBlock x:ConnectionId='17' Name="kfcBio"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Desc}"
+                           TextWrapping="Wrap"
+                           Text="Knocknacarra F.C. are  progressive community based soccer club based in Knocknacarra, Galway city. The club plays it home matches at Cappagh Park and has a large clubhouse which it shares with the neighbouring Saltill/Knocknacarra GAA Team." />
+            </StackPanel>
+
+
+        </ScrollViewer>
+    </Grid>
+
 </Page>
 

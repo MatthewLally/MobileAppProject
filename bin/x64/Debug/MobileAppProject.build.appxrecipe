@@ -340,11 +340,26 @@
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\corribceltic.png">
       <PackagePath>Assets\corribceltic.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\galwayhibs.png">
+      <PackagePath>Assets\galwayhibs.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\merlinwoods.png">
+      <PackagePath>Assets\merlinwoods.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\Mervue.png">
       <PackagePath>Assets\Mervue.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\nui.png">
+      <PackagePath>Assets\nui.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\oranmore.png">
+      <PackagePath>Assets\oranmore.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\salthill.png">
       <PackagePath>Assets\salthill.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\tuamceltic.png">
+      <PackagePath>Assets\tuamceltic.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -373,14 +388,71 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\barna.jpg">
+      <PackagePath>Assets\barna.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\bohs.jpg">
+      <PackagePath>Assets\bohs.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\cois.jpg">
+      <PackagePath>Assets\cois.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\colemanstown.jpg">
+      <PackagePath>Assets\colemanstown.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\corribrangers.jpg">
+      <PackagePath>Assets\corribrangers.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\craughwell.jpg">
+      <PackagePath>Assets\craughwell.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\cregmore.jpg">
+      <PackagePath>Assets\cregmore.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\dynamoblues.jpg">
+      <PackagePath>Assets\dynamoblues.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\eastunited.jpg">
+      <PackagePath>Assets\eastunited.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\GalwayImage.jpg">
       <PackagePath>Assets\GalwayImage.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\kfc.jpg">
+      <PackagePath>Assets\kfc.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\kiltullagh.jpg">
+      <PackagePath>Assets\kiltullagh.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\kinvara.jpg">
+      <PackagePath>Assets\kinvara.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\loughrea.jpg">
+      <PackagePath>Assets\loughrea.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\macdara.jpg">
+      <PackagePath>Assets\macdara.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\moynevilla.jpg">
+      <PackagePath>Assets\moynevilla.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\oafc.jpg">
+      <PackagePath>Assets\oafc.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\ramblers.jpg">
+      <PackagePath>Assets\ramblers.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\renmore.jpg">
+      <PackagePath>Assets\renmore.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\stbernads.jpg">
       <PackagePath>Assets\stbernads.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\west.jpg">
       <PackagePath>Assets\west.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\westcoast.jpeg">
+      <PackagePath>Assets\westcoast.jpeg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>

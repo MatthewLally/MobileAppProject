@@ -6,6 +6,16 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
+    <Page.Resources>
+        <Style TargetType="TextBlock" x:Key="Club">
+            <Setter Property="FontSize" Value="36"></Setter>
+            <Setter Property="Foreground" Value="#F8CF8B"></Setter>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="Desc">
+            <Setter Property="FontSize" Value="18"></Setter>
+            <Setter Property="Foreground" Value="#F8CF8B"></Setter>
+        </Style>
+    </Page.Resources>
     <Page.BottomAppBar>
         <CommandBar>
             <CommandBar.Content>
@@ -14,8 +24,151 @@
             <AppBarButton Name="Home" Icon="Home" Label="Home" Click="Home_Click"/>
         </CommandBar>
     </Page.BottomAppBar>
-    <Frame Name="MyFrame">
+    <Grid Background="#3A4F41">
+        <ScrollViewer
+                Grid.Row="0" 
+                Height="600"
+                VerticalScrollBarVisibility="Auto"
+            >
 
-    </Frame>
-    
+            <StackPanel Orientation="Vertical" VerticalAlignment="Stretch" >
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image Name="renmoreImg" Source="/Assets/renmore.jpg" />
+                <TextBlock
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Club}"
+                
+                           Text="Renmore Football Club" />
+                <TextBlock Name="renmoreBio"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Desc}"
+                           TextWrapping="Wrap"
+                           Text="Founded in 1973, Athenry football club are based in Renmore, Galway City. The club was founded to provide a forum for the young people of Renmore and its environs to safely and positively express themselves and improve themselves through the medium of soccer.Renmore have a large and spacious clubhouse with showering facilities and many other facilities" />
+                
+                           
+                <Image Name="westCoastImg" Source="/Assets/westcoast.jpeg" />
+                <TextBlock
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Club}"
+                
+                           Text="West Coast United Football Club" />
+                <TextBlock Name="westCoastBio"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Desc}"
+                           TextWrapping="Wrap"
+                           Text="West Coast United are based in Letterfrack in Connemara and are in one of the most rural locations of any of teams in the league. The club is a great sense of pride to the local communinity and continues to go from strength to strength every year. "/>
+                <Image Name="eastutdImg" Source="/Assets/eastunited.jpg" />
+                <TextBlock
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Club}"
+                
+                           Text="East United Football Club" />
+                <TextBlock Name="eastUnitedBio"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Desc}"
+                           TextWrapping="Wrap"
+                           Text="Founded in 2003, East United football club are based in the east side of Galway city in Ballybane. The club is one of the newest teams in the leagues and boasts an impressive clubhouse which includes showering facilities. The club has a large and spacious carpark outside the clubhouse. The club has been very succesful in the short period of time since it was founded" />
+                <Image Name="oranmoreImg" Source="/Assets/oranmore.png" />
+                <TextBlock
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Club}"
+                
+                           Text="Maree Oranmore Football Club" />
+                <TextBlock Name="oranmoreBio"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Desc}"
+                           TextWrapping="Wrap"
+                           Text="Founded in 2005, Maree Oranmore football club are based in Oranmore and Maree . The club was formerally know as simply Oranmore but merged with Marees team Oranbay90 to form Maree Oranmore in 2012. The club has an indoor sports hall and a indoor astro turf in Maree and in Oranmore the club has an outdoor astro turf." />
+                <Image Name="nuiImg" Source="/Assets/nui.png" />
+                <TextBlock
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Club}"
+                
+                           Text="Nui Galway Football Club" />
+                <TextBlock Name="nuiBio"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Desc}"
+                           TextWrapping="Wrap"
+                           Text="NUI Galway football club are based in dangan, in the west side of Galway city. The club is open to all players and not just students of the college and has been very succesful. " />
+                <Image Name="tuamcelticImg" Source="/Assets/tuamceltic.png" />
+                <TextBlock
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Club}"
+                
+                           Text="Tuam Celtic Football Club" />
+                <TextBlock Name="tuamBio"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Desc}"
+                           TextWrapping="Wrap"
+                           Text="Founded in 1974, Tuam Celtic football club are based in Tuam, county Galway. The club play their matches on a floodlight pitch at Celtic Park , Cloonthue, Tuam. The club has dressing rooms and showering facilities and are nicknamed the hoops." />
+                <Image Name="westbImg" Source="/Assets/west.jpg" />
+                <TextBlock
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Club}"
+                
+                           Text="West United B" />
+                <TextBlock Name="westbBio"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Desc}"
+                           TextWrapping="Wrap"
+                           Text="Founded in 1945, West United b are the b team of the premier divison team West United. The club is based in Claddagh, Co. Galway. West United Football Club facilities comprise of a main club house with showering facilities, dressing rooms and also includes meeting rooms. The club plays its home matches at O Connor Park known as Swamp . The club has had a very long and succesful history in the Galway leagues and cup competitions. " />
+                <Image Name="kinvaraImg" Source="/Assets/kinvara.jpg" />
+                <TextBlock
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Club}"
+                
+                           Text="Kinvara United Football Club" />
+                <TextBlock Name="kinvaraBio"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Desc}"
+                           TextWrapping="Wrap"
+                           Text="Kinvara United F.C. is a soccer club that represents Kinvara, Co. Galway, Ireland and caters for players from Kinvara and the surrounding regions. The club has two 11 a side pitches and also uses an astro turf pitch located within the town. " />
+                <Image Name="moyneVillaImg" Source="/Assets/moynevilla.jpg" />
+                <TextBlock
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Club}"
+                
+                           Text="Moyne Villa Football Club" />
+                <TextBlock Name="moyneVillaBio"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Desc}"
+                           TextWrapping="Wrap"
+                           Text="Founded in 1977, Moyne Villa football club are based in Headford , County Galway. The club boasts a seven a side astro and two of the finest pitches of any team in any of the junior leagues. The club also has two function rooms, a gym and a kitchen.The club is a very importent part of the community and lets the public take advantage of many of the clubs facilities" />
+                <Image Name="stPatsImg" Source="/Assets/GalwayImage.jpg" />
+                <TextBlock
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Club}"
+                
+                           Text="St Patricks Football Club" />
+                <TextBlock Name="stpatsBio"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource Desc}"
+                           TextWrapping="Wrap"
+                           Text="St Patricks football club are based in Tuam, County Galway and play their home matches in Caherlistrane. "/>
+            </StackPanel>
+
+
+        </ScrollViewer>
+    </Grid>
+
 </Page>

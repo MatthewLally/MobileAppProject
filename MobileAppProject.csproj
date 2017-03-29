@@ -126,12 +126,36 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\athenry.png" />
+    <Content Include="Assets\barna.jpg" />
+    <Content Include="Assets\bohs.jpg" />
+    <Content Include="Assets\cois.jpg" />
+    <Content Include="Assets\colemanstown.jpg" />
     <Content Include="Assets\corribceltic.png" />
+    <Content Include="Assets\corribrangers.jpg" />
+    <Content Include="Assets\craughwell.jpg" />
+    <Content Include="Assets\cregmore.jpg" />
+    <Content Include="Assets\dynamoblues.jpg" />
+    <Content Include="Assets\eastunited.jpg" />
+    <Content Include="Assets\galwayhibs.png" />
     <Content Include="Assets\GalwayImage.jpg" />
+    <Content Include="Assets\kfc.jpg" />
+    <Content Include="Assets\kiltullagh.jpg" />
+    <Content Include="Assets\kinvara.jpg" />
+    <Content Include="Assets\loughrea.jpg" />
+    <Content Include="Assets\macdara.jpg" />
+    <Content Include="Assets\merlinwoods.png" />
     <Content Include="Assets\Mervue.png" />
+    <Content Include="Assets\moynevilla.jpg" />
+    <Content Include="Assets\nui.png" />
+    <Content Include="Assets\oafc.jpg" />
+    <Content Include="Assets\oranmore.png" />
+    <Content Include="Assets\ramblers.jpg" />
+    <Content Include="Assets\renmore.jpg" />
     <Content Include="Assets\salthill.png" />
     <Content Include="Assets\stbernads.jpg" />
+    <Content Include="Assets\tuamceltic.png" />
     <Content Include="Assets\west.jpg" />
+    <Content Include="Assets\westcoast.jpeg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -174,6 +198,9 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\NewFolder1\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
