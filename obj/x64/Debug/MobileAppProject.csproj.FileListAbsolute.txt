@@ -220,3 +220,8 @@ C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\obj\x64\Debug\qualifi
 C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\obj\x64\Debug\qualifiers.txt.intermediate
 C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\obj\x64\Debug\Pages\Map.g.i.cs
+C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\obj\x64\Debug\Pages\Map.g.cs
+C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\obj\x64\Debug\Pages\Map.xaml
+C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\obj\x64\Debug\Pages\Map.xbf
+C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\bin\x64\Debug\Pages\Map.xbf

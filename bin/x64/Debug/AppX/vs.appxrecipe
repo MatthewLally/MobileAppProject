@@ -16,7 +16,7 @@
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>C1A45F7D97CCA44476A7B1421855F4B5AC0D61D3108F29E17FF67E184A8DD8C3</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>9C2028508625529346A6494C88C670471142BDB7DE57F029EB1222A162E627FF</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>06a0ac0d-5745-4c71-b277-4410d4e0a94d_1.0.0.0_x64__ckpvgz13cfhxc</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>06a0ac0d-5745-4c71-b277-4410d4e0a94d_ckpvgz13cfhxc!App</RegisteredUserModeAppID>
     <RegisteredPackageID>06a0ac0d-5745-4c71-b277-4410d4e0a94d</RegisteredPackageID>
@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-29T16:18:59.855</Modified>
+      <Modified>2017-03-29T18:45:14.025</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\bin\x64\Debug\MobileAppProject.exe">
       <PackagePath>entrypoint\MobileAppProject.exe</PackagePath>
-      <Modified>2017-03-29T16:18:47.173</Modified>
+      <Modified>2017-03-29T18:45:10.325</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -612,7 +612,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\bin\x64\Debug\MobileAppProject.xr.xml">
       <PackagePath>MobileAppProject.xr.xml</PackagePath>
-      <Modified>2017-03-29T15:31:42.324</Modified>
+      <Modified>2017-03-29T18:06:33.076</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -621,11 +621,11 @@
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-29T16:18:56.647</Modified>
+      <Modified>2017-03-29T18:29:28.596</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\bin\x64\Debug\Core\MobileAppProject.exe">
       <PackagePath>MobileAppProject.exe</PackagePath>
-      <Modified>2017-03-29T16:18:59.829</Modified>
+      <Modified>2017-03-29T18:45:14.014</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

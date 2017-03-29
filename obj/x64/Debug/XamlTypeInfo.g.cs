@@ -132,7 +132,7 @@ namespace MobileAppProject.MobileAppProject_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[9];
+            _typeNameTable = new string[10];
             _typeNameTable[0] = "MobileAppProject.MainPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
@@ -141,9 +141,10 @@ namespace MobileAppProject.MobileAppProject_XamlTypeInfo
             _typeNameTable[5] = "MobileAppProject.Pages.DivisonThree";
             _typeNameTable[6] = "MobileAppProject.Pages.DivisonTwo";
             _typeNameTable[7] = "MobileAppProject.Pages.HomePage";
-            _typeNameTable[8] = "MobileAppProject.Pages.PremierDivison";
+            _typeNameTable[8] = "MobileAppProject.Pages.Map";
+            _typeNameTable[9] = "MobileAppProject.Pages.PremierDivison";
 
-            _typeTable = new global::System.Type[9];
+            _typeTable = new global::System.Type[10];
             _typeTable[0] = typeof(global::MobileAppProject.MainPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -152,7 +153,8 @@ namespace MobileAppProject.MobileAppProject_XamlTypeInfo
             _typeTable[5] = typeof(global::MobileAppProject.Pages.DivisonThree);
             _typeTable[6] = typeof(global::MobileAppProject.Pages.DivisonTwo);
             _typeTable[7] = typeof(global::MobileAppProject.Pages.HomePage);
-            _typeTable[8] = typeof(global::MobileAppProject.Pages.PremierDivison);
+            _typeTable[8] = typeof(global::MobileAppProject.Pages.Map);
+            _typeTable[9] = typeof(global::MobileAppProject.Pages.PremierDivison);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -193,7 +195,8 @@ namespace MobileAppProject.MobileAppProject_XamlTypeInfo
         private object Activate_5_DivisonThree() { return new global::MobileAppProject.Pages.DivisonThree(); }
         private object Activate_6_DivisonTwo() { return new global::MobileAppProject.Pages.DivisonTwo(); }
         private object Activate_7_HomePage() { return new global::MobileAppProject.Pages.HomePage(); }
-        private object Activate_8_PremierDivison() { return new global::MobileAppProject.Pages.PremierDivison(); }
+        private object Activate_8_Map() { return new global::MobileAppProject.Pages.Map(); }
+        private object Activate_9_PremierDivison() { return new global::MobileAppProject.Pages.PremierDivison(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -255,9 +258,16 @@ namespace MobileAppProject.MobileAppProject_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 8:   //  MobileAppProject.Pages.PremierDivison
+            case 8:   //  MobileAppProject.Pages.Map
                 userType = new global::MobileAppProject.MobileAppProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_8_PremierDivison;
+                userType.Activator = Activate_8_Map;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 9:   //  MobileAppProject.Pages.PremierDivison
+                userType = new global::MobileAppProject.MobileAppProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_9_PremierDivison;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
