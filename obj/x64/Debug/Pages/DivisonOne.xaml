@@ -15,6 +15,14 @@
             <Setter Property="FontSize" Value="18"></Setter>
             <Setter Property="Foreground" Value="#F8CF8B"></Setter>
         </Style>
+        <Style TargetType="Button" x:Key="Buttons">
+            <Setter Property="Background" Value="#B9314F"></Setter>
+            <Setter Property="Foreground" Value="Aqua"></Setter>
+            <Setter Property="FontSize" Value="25"></Setter>
+            <Setter Property="Width" Value="220"></Setter>
+            <Setter Property="Height" Value="50"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+        </Style>
     </Page.Resources>
     <Page.BottomAppBar>
         <CommandBar>
@@ -45,126 +53,197 @@
                            HorizontalAlignment="Center"
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
-                           Text="Founded in 1973, Athenry football club are based in Renmore, Galway City. The club was founded to provide a forum for the young people of Renmore and its environs to safely and positively express themselves and improve themselves through the medium of soccer.Renmore have a large and spacious clubhouse with showering facilities and many other facilities" />
+                           Text="Founded in 1973, Renmore football club are based in Renmore, Galway City. The club was founded to provide a forum for the young people of Renmore and its environs to safely and positively express themselves and improve themselves through the medium of soccer.Renmore have a large and spacious clubhouse with showering facilities and many other facilities" />
+                <Button x:ConnectionId='4' Name="RenmoreLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource Buttons}"
+                    Height="50"
+                                            
+                    HorizontalAlignment="Center"
+                    ></Button>
                 
                            
-                <Image x:ConnectionId='4' Name="westCoastImg" Source="/Assets/westcoast.jpeg" />
+                <Image x:ConnectionId='5' Name="westCoastImg" Source="/Assets/westcoast.jpeg" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Club}"
                 
                            Text="West Coast United Football Club" />
-                <TextBlock x:ConnectionId='5' Name="westCoastBio"
+                <TextBlock x:ConnectionId='6' Name="westCoastBio"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="West Coast United are based in Letterfrack in Connemara and are in one of the most rural locations of any of teams in the league. The club is a great sense of pride to the local communinity and continues to go from strength to strength every year. "/>
-                <Image x:ConnectionId='6' Name="eastutdImg" Source="/Assets/eastunited.jpg" />
+                <Button x:ConnectionId='7' Name="WestCoastLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource Buttons}"
+                    Height="50"
+                                              
+                    HorizontalAlignment="Center"
+                    ></Button>
+                <Image x:ConnectionId='8' Name="eastutdImg" Source="/Assets/eastunited.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Club}"
                 
                            Text="East United Football Club" />
-                <TextBlock x:ConnectionId='7' Name="eastUnitedBio"
+                <TextBlock x:ConnectionId='9' Name="eastUnitedBio"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="Founded in 2003, East United football club are based in the east side of Galway city in Ballybane. The club is one of the newest teams in the leagues and boasts an impressive clubhouse which includes showering facilities. The club has a large and spacious carpark outside the clubhouse. The club has been very succesful in the short period of time since it was founded" />
-                <Image x:ConnectionId='8' Name="oranmoreImg" Source="/Assets/oranmore.png" />
+                <Button x:ConnectionId='10' Name="EastUnitedLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource Buttons}"
+                    Height="50"
+                                               
+                    HorizontalAlignment="Center"
+                    ></Button>
+                <Image x:ConnectionId='11' Name="oranmoreImg" Source="/Assets/oranmore.png" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Club}"
                 
                            Text="Maree Oranmore Football Club" />
-                <TextBlock x:ConnectionId='9' Name="oranmoreBio"
+                <TextBlock x:ConnectionId='12' Name="oranmoreBio"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="Founded in 2005, Maree Oranmore football club are based in Oranmore and Maree . The club was formerally know as simply Oranmore but merged with Marees team Oranbay90 to form Maree Oranmore in 2012. The club has an indoor sports hall and a indoor astro turf in Maree and in Oranmore the club has an outdoor astro turf." />
-                <Image x:ConnectionId='10' Name="nuiImg" Source="/Assets/nui.png" />
+                <Button x:ConnectionId='13' Name="MareeLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource Buttons}"
+                    Height="50"
+                                          
+                    HorizontalAlignment="Center"
+                    ></Button>
+                <Image x:ConnectionId='14' Name="nuiImg" Source="/Assets/nui.png" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Club}"
                 
                            Text="Nui Galway Football Club" />
-                <TextBlock x:ConnectionId='11' Name="nuiBio"
+                <TextBlock x:ConnectionId='15' Name="nuiBio"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="NUI Galway football club are based in dangan, in the west side of Galway city. The club is open to all players and not just students of the college and has been very succesful. " />
-                <Image x:ConnectionId='12' Name="tuamcelticImg" Source="/Assets/tuamceltic.png" />
+                <Button x:ConnectionId='16' Name="NuiLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource Buttons}"
+                    Height="50"
+                                        
+                    HorizontalAlignment="Center"
+                    ></Button>
+                <Image x:ConnectionId='17' Name="tuamcelticImg" Source="/Assets/tuamceltic.png" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Club}"
                 
                            Text="Tuam Celtic Football Club" />
-                <TextBlock x:ConnectionId='13' Name="tuamBio"
+                <TextBlock x:ConnectionId='18' Name="tuamBio"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="Founded in 1974, Tuam Celtic football club are based in Tuam, county Galway. The club play their matches on a floodlight pitch at Celtic Park , Cloonthue, Tuam. The club has dressing rooms and showering facilities and are nicknamed the hoops." />
-                <Image x:ConnectionId='14' Name="westbImg" Source="/Assets/west.jpg" />
+                <Button x:ConnectionId='19' Name="TuamCelticLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource Buttons}"
+                    Height="50"
+                                               
+                    HorizontalAlignment="Center"
+                    ></Button>
+                <Image x:ConnectionId='20' Name="westbImg" Source="/Assets/west.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Club}"
                 
                            Text="West United B" />
-                <TextBlock x:ConnectionId='15' Name="westbBio"
+                <TextBlock x:ConnectionId='21' Name="westbBio"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="Founded in 1945, West United b are the b team of the premier divison team West United. The club is based in Claddagh, Co. Galway. West United Football Club facilities comprise of a main club house with showering facilities, dressing rooms and also includes meeting rooms. The club plays its home matches at O Connor Park known as Swamp . The club has had a very long and succesful history in the Galway leagues and cup competitions. " />
-                <Image x:ConnectionId='16' Name="kinvaraImg" Source="/Assets/kinvara.jpg" />
+                <Button x:ConnectionId='22' Name="WestLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource Buttons}"
+                    Height="50"
+                                         
+                    HorizontalAlignment="Center"
+                    ></Button>
+                <Image x:ConnectionId='23' Name="kinvaraImg" Source="/Assets/kinvara.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Club}"
                 
                            Text="Kinvara United Football Club" />
-                <TextBlock x:ConnectionId='17' Name="kinvaraBio"
+                <TextBlock x:ConnectionId='24' Name="kinvaraBio"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="Kinvara United F.C. is a soccer club that represents Kinvara, Co. Galway, Ireland and caters for players from Kinvara and the surrounding regions. The club has two 11 a side pitches and also uses an astro turf pitch located within the town. " />
-                <Image x:ConnectionId='18' Name="moyneVillaImg" Source="/Assets/moynevilla.jpg" />
+                <Button x:ConnectionId='25' Name="KinvaraLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource Buttons}"
+                    Height="50"
+                                            
+                    HorizontalAlignment="Center"
+                    ></Button>
+                
+                <Image x:ConnectionId='26' Name="moyneVillaImg" Source="/Assets/moynevilla.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Club}"
                 
                            Text="Moyne Villa Football Club" />
-                <TextBlock x:ConnectionId='19' Name="moyneVillaBio"
+                <TextBlock x:ConnectionId='27' Name="moyneVillaBio"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="Founded in 1977, Moyne Villa football club are based in Headford , County Galway. The club boasts a seven a side astro and two of the finest pitches of any team in any of the junior leagues. The club also has two function rooms, a gym and a kitchen.The club is a very importent part of the community and lets the public take advantage of many of the clubs facilities" />
-                <Image x:ConnectionId='20' Name="stPatsImg" Source="/Assets/GalwayImage.jpg" />
+                <Button x:ConnectionId='28' Name="MoyneVillaLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource Buttons}"
+                    Height="50"
+                                               
+                    HorizontalAlignment="Center"
+                    ></Button>
+                <Image x:ConnectionId='29' Name="stPatsImg" Source="/Assets/GalwayImage.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Club}"
                 
                            Text="St Patricks Football Club" />
-                <TextBlock x:ConnectionId='21' Name="stpatsBio"
+                <TextBlock x:ConnectionId='30' Name="stpatsBio"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="St Patricks football club are based in Tuam, County Galway and play their home matches in Caherlistrane. "/>
+                <Button x:ConnectionId='31' Name="PatsLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource Buttons}"
+                    Height="50"
+                                         
+                    HorizontalAlignment="Center"
+                    ></Button>
             </StackPanel>
 
 

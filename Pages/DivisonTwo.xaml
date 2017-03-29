@@ -15,6 +15,14 @@
             <Setter Property="FontSize" Value="18"></Setter>
             <Setter Property="Foreground" Value="#F8CF8B"></Setter>
         </Style>
+        <Style TargetType="Button" x:Key="Buttons">
+            <Setter Property="Background" Value="#B9314F"></Setter>
+            <Setter Property="Foreground" Value="Aqua"></Setter>
+            <Setter Property="FontSize" Value="25"></Setter>
+            <Setter Property="Width" Value="220"></Setter>
+            <Setter Property="Height" Value="50"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+        </Style>
     </Page.Resources>
     <Page.BottomAppBar>
         <CommandBar>
@@ -46,6 +54,13 @@
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="Founded in 1932, Galway Bohemians Football club are based in Knocknacarra, Galway City. The club is the oldest club in Galway and is nicknamed Bohs which is the name many know the club. The club plays their home matches at Millers Lane. The club was very succesful in its early years and although not as succesful as it previously was it is still a force to be reckoned with in Galway soccer." />
+                <Button Name="BohsLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource Buttons}"
+                    Height="50"
+                    Click="BohsLoc_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
 
 
                 <Image Name="merlinImg" Source="/Assets/merlinwoods.png" />
@@ -61,6 +76,13 @@
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="Based in the east side of Galway City in Doughiska, Merlin Woods/Medtronic Football Club was founded with the  aim to reach out to many communities and engage, develop, and include all its people regardless of background, colour, ability, gender or age. This area of Galway has a large non Irish population so the club was set up to help these feel like part of Galway " />
+                <Button Name="MerlinLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource Buttons}"
+                    Height="50"
+                    Click="MerlinLoc_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
                 <Image Name="mervueImg" Source="/Assets/Mervue.png" />
                 <TextBlock
                            Margin="0,10,0,0"
@@ -74,6 +96,13 @@
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="Founded in 1960, Mervue United football club are based in Mervue, Co. Galway. Mervue United Football Club facilities comprise of a main club house with a fully equipped gym with showering facilities, twelve dressing rooms and also includes meeting rooms. The club has an all weather astro turf pitch which can be rented out. The club has had many players move to play football in England and many players associated with the club have been capped for the Irish team at junior and senior levels" />
+                <Button Name="MervueBLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource Buttons}"
+                    Height="50"
+                    Click="MervueBLoc_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
                 <Image Name="colgaImg" Source="/Assets/GalwayImage.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
@@ -87,6 +116,13 @@
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="Colga Football Club is an association football (soccer) club in south County Galway. It is a community voluntary organisation run by its members for the benefit of their families and neighbours. The club was founded in 1996 and is based in Clarenbridge village. Colga aims to provide an environment that promotes; Inclusivity, Opportunity, Teamwork, Development and most of all Fun " />
+                <Button Name="ColgaLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource Buttons}"
+                    Height="50"
+                    Click="ColgaLoc_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
                 <Image Name="hibsbImg" Source="/Assets/galwayhibs.png" />
                 <TextBlock
                            Margin="0,10,0,0"
@@ -100,6 +136,13 @@
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="Galway Hibernians were founded in 1982. Called Hibs by most the club has some impressive including an astro turf, a floodlight and fully drained pitch and a state of the art new clubhouse with a range of facilities. The club has been very succesfully and has won many trophies. The club is based in Bohermore , Galway. " />
+                <Button Name="HibsBLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource Buttons}"
+                    Height="50"
+                    Click="HibsBLoc_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
                 <Image Name="kiltullaghImg" Source="/Assets/kiltullagh.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
@@ -113,6 +156,13 @@
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="Kiltullagh Pioneers are a football team located in Kiltullagh, Athenry, Co. Galway. The club plays in white and blue jerseys and is a great sense of pride to the local community " />
+                <Button Name="KiltullaghLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource Buttons}"
+                    Height="50"
+                    Click="KiltullaghLoc_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
                 <Image Name="dynamoBluesImg" Source="/Assets/dynamoblues.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
@@ -126,6 +176,13 @@
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="Dynamo Blues F.C. is  based in Tuam, County Galway. They were founded in 1978. Their senior men's team competes in the Galway and District League. They remain the only club from Tuam and the surrounding areas to have won the Galway and District League Premier Division.The club is nicknamed the blues and plays its home games at College Field. " />
+                <Button Name="BluesLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource Buttons}"
+                    Height="50"
+                    Click="BluesLoc_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
                 <Image Name="knocknacarraImg" Source="/Assets/kfc.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
@@ -139,6 +196,13 @@
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="Knocknacarra F.C. are  progressive community based soccer club based in Knocknacarra, Galway city. The club plays it home matches at Cappagh Park and has a large clubhouse which it shares with the neighbouring Saltill/Knocknacarra GAA Team." />
+                <Button Name="kfcLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource Buttons}"
+                    Height="50"
+                    Click="kfcLoc_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
             </StackPanel>
 
 

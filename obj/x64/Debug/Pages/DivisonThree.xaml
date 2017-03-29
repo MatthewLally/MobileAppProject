@@ -15,6 +15,14 @@
             <Setter Property="FontSize" Value="18"></Setter>
             <Setter Property="Foreground" Value="#F8CF8B"></Setter>
         </Style>
+        <Style TargetType="Button" x:Key="Buttons">
+            <Setter Property="Background" Value="#B9314F"></Setter>
+            <Setter Property="Foreground" Value="Aqua"></Setter>
+            <Setter Property="FontSize" Value="25"></Setter>
+            <Setter Property="Width" Value="220"></Setter>
+            <Setter Property="Height" Value="50"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+        </Style>
     </Page.Resources>
     <Page.BottomAppBar>
         <CommandBar>
@@ -46,99 +54,155 @@
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="MacDara Football Club are based in Carraroe , Connamara Galway. The club is in a large Irish speaking region and the players take great pride in their heritige" />
+                <Button x:ConnectionId='4' Name="MacDaraLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource Buttons}"
+                    Height="50"
+                                            
+                    HorizontalAlignment="Center"
+                    ></Button>
 
 
-                <Image x:ConnectionId='4' Name=" OughterardImg" Source="/Assets/oafc.jpg" />
+                <Image x:ConnectionId='5' Name=" OughterardImg" Source="/Assets/oafc.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Club}"
                 
                            Text=" Oughterard Football Club" />
-                <TextBlock x:ConnectionId='5' Name="westCoastBio"
+                <TextBlock x:ConnectionId='6' Name="westCoastBio"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text=" Oughterard Football Club was founded in 1997. The club has three full size pitches, a clubhouse and a full size , floodlight all weather pitch. Club  members are drawn from a large catchment area, stretching from Moycullen to Maam, and we welcome and encourage members from the entire Connemara area and beyond. " />
-                <Image x:ConnectionId='6' Name="bohsbImg" Source="/Assets/bohs.jpg" />
+                <Button x:ConnectionId='7' Name="OafcLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource Buttons}"
+                    Height="50"
+                                         
+                    HorizontalAlignment="Center"
+                    ></Button>
+                <Image x:ConnectionId='8' Name="bohsbImg" Source="/Assets/bohs.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Club}"
                 
                            Text="Galway Bohemians B  Football Club" />
-                <TextBlock x:ConnectionId='7' Name="bohsbBio"
+                <TextBlock x:ConnectionId='9' Name="bohsbBio"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="Founded in 1932, Galway Bohemians Football club are based in Knocknacarra, Galway City. The club is the oldest club in Galway and is nicknamed Bohs which is the name many know the club. The club plays their home matches at Millers Lane. The club was very succesful in its early years and although not as succesful as it previously was it is still a force to be reckoned with in Galway soccer. " />
-                <Image x:ConnectionId='8' Name="coisfharraigeImg" Source="/Assets/cois.jpg" />
+                <Button x:ConnectionId='10' Name="BohsLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource Buttons}"
+                    Height="50"
+                                         
+                    HorizontalAlignment="Center"
+                    ></Button>
+                <Image x:ConnectionId='11' Name="coisfharraigeImg" Source="/Assets/cois.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Club}"
                 
                            Text="Cois Fharraige Football Club" />
-                <TextBlock x:ConnectionId='9' Name="coisfharraigeBio"
+                <TextBlock x:ConnectionId='12' Name="coisfharraigeBio"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="Cois Fharraige Football Club was founded in 2004. Local rivals of MacDara , they are based in the same area. The club is also very proud of its Irish heritige as most club members would be Irish speakers and the clubs website is also in Irish. " />
-                <Image x:ConnectionId='10' Name="ramblersImg" Source="/Assets/ramblers.jpg" />
+                <Button x:ConnectionId='13' Name="CoisLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource Buttons}"
+                    Height="50"
+                                         
+                    HorizontalAlignment="Center"
+                    ></Button>
+                <Image x:ConnectionId='14' Name="ramblersImg" Source="/Assets/ramblers.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Club}"
                 
                            Text="Ramblers Football Club" />
-                <TextBlock x:ConnectionId='11' Name="ramblersBio"
+                <TextBlock x:ConnectionId='15' Name="ramblersBio"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text=" Ramblers F.C. is a soccer club in Co. Galway Ireland. They play their home games in Leitrim in East Galway.Ramblers were established in 2003 by Brian Flaherty, Donal Nevin Tom Tierney, Michael Flanagan, Aidan Spaight and Michael Keating" />
-                <Image x:ConnectionId='12' Name="nuibImg" Source="/Assets/nui.png" />
+                <Button x:ConnectionId='16' Name="ramblersLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource Buttons}"
+                    Height="50"
+                                             
+                    HorizontalAlignment="Center"
+                    ></Button>
+                <Image x:ConnectionId='17' Name="nuibImg" Source="/Assets/nui.png" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Club}"
                 
                            Text="NUI Galway B Football Club" />
-                <TextBlock x:ConnectionId='13' Name="nuiB"
+                <TextBlock x:ConnectionId='18' Name="nuiB"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="NUI Galway football club are based in dangan, in the west side of Galway city. The club is open to all players and not just students of the college and has been very succesful" />
-                <Image x:ConnectionId='14' Name="corribcelticbImg" Source="/Assets/corribceltic.png" />
+                <Button x:ConnectionId='19' Name="nuiLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource Buttons}"
+                    Height="50"
+                                        
+                    HorizontalAlignment="Center"
+                    ></Button>
+                <Image x:ConnectionId='20' Name="corribcelticbImg" Source="/Assets/corribceltic.png" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Club}"
                 
                            Text="Corrib Celtic B Football Club" />
-                <TextBlock x:ConnectionId='15' Name="corribCelticBBio"
+                <TextBlock x:ConnectionId='21' Name="corribCelticBBio"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="Founded in 1985, Corrib Celtic football club are based in Annaghdown, Co. Galway. Corrib Celtic Football Club is named after the nearby Lough Corrib. The club plays it home games in Gort Scully." />
-                <Image x:ConnectionId='16' Name="BearnaNaForbachaImg" Source="/Assets/barna.jpg" />
+                <Button x:ConnectionId='22' Name="corribCelticLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource Buttons}"
+                    Height="50"
+                                                 
+                    HorizontalAlignment="Center"
+                    ></Button>
+                <Image x:ConnectionId='23' Name="BearnaNaForbachaImg" Source="/Assets/barna.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Club}"
                 
                            Text="Bearna Na Forbacha  Football Club" />
-                <TextBlock x:ConnectionId='17' Name="BearnaNaForbachaBio"
+                <TextBlock x:ConnectionId='24' Name="BearnaNaForbachaBio"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="Bearna Na Forbacha Football Club was founded in 1996. Like other teams in the area many of its members are extremely proud Irish speakers and promote the use of Irish throughout the club. " />
+                <Button x:ConnectionId='25' Name="barnaLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource Buttons}"
+                    Height="50"
+                                          
+                    HorizontalAlignment="Center"
+                    ></Button>
             </StackPanel>
         </ScrollViewer>
     </Grid>

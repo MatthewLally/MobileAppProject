@@ -78,7 +78,8 @@
                 <Button x:ConnectionId='7' Name="MervueLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource Buttons}"
-                    Height="50" 
+                    Height="50"
+                                       
                     HorizontalAlignment="Center"
                     ></Button>
                 <Image x:ConnectionId='8' Name="westImg" Source="/Assets/west.jpg" />
@@ -97,7 +98,8 @@
                 <Button x:ConnectionId='10' Name="WestLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource Buttons}"
-                    Height="50" 
+                    Height="50"
+                                     
                     HorizontalAlignment="Center"
                     ></Button>
                 <Image x:ConnectionId='11' Name="corribCelticImg" Source="/Assets/corribceltic.png" />
@@ -116,7 +118,8 @@
                 <Button x:ConnectionId='13' Name="CorribCelticLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource Buttons}"
-                    Height="50" 
+                    Height="50"
+                                             
                     HorizontalAlignment="Center"
                     ></Button>
                 <Image x:ConnectionId='14' Name="stBernardsImg" Source="/Assets/stbernads.jpg" />
@@ -135,7 +138,8 @@
                 <Button x:ConnectionId='16' Name="StBernardsLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource Buttons}"
-                    Height="50" 
+                    Height="50"
+                                           
                     HorizontalAlignment="Center"
                     ></Button>
                 <Image x:ConnectionId='17' Name="salthillImg" Source="/Assets/salthill.png" />
@@ -154,7 +158,8 @@
                 <Button x:ConnectionId='19' Name="SalthillLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource Buttons}"
-                    Height="50" 
+                    Height="50"
+                                         
                     HorizontalAlignment="Center"
                     ></Button>
                 <Image x:ConnectionId='20' Name="corribRangersImg" Source="/Assets/corribrangers.jpg" />
@@ -173,7 +178,8 @@
                 <Button x:ConnectionId='22' Name="CorribRangersLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource Buttons}"
-                    Height="50" 
+                    Height="50"
+                                              
                     HorizontalAlignment="Center"
                     ></Button>
                 <Image x:ConnectionId='23' Name="colemanstownImage" Source="/Assets/colemanstown.jpg" />
@@ -192,7 +198,8 @@
                 <Button x:ConnectionId='25' Name="ColemanstownLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource Buttons}"
-                    Height="50" 
+                    Height="50"
+                                             
                     HorizontalAlignment="Center"
                     ></Button>
                 <Image x:ConnectionId='26' Name="hibsImage" Source="/Assets/galwayhibs.png" />
@@ -211,7 +218,8 @@
                 <Button x:ConnectionId='28' Name="HibsLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource Buttons}"
-                    Height="50" 
+                    Height="50"
+                                     
                     HorizontalAlignment="Center"
                     ></Button>
                 <Image x:ConnectionId='29' Name="loughreaImage" Source="/Assets/loughrea.jpg" />
@@ -230,7 +238,8 @@
                 <Button x:ConnectionId='31' Name="LoughreaLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource Buttons}"
-                    Height="50" 
+                    Height="50"
+                                         
                     HorizontalAlignment="Center"
                     ></Button>
             

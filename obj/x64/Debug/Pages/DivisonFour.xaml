@@ -15,6 +15,14 @@
             <Setter Property="FontSize" Value="18"></Setter>
             <Setter Property="Foreground" Value="#F8CF8B"></Setter>
         </Style>
+        <Style TargetType="Button" x:Key="Buttons">
+            <Setter Property="Background" Value="#B9314F"></Setter>
+            <Setter Property="Foreground" Value="Aqua"></Setter>
+            <Setter Property="FontSize" Value="25"></Setter>
+            <Setter Property="Width" Value="220"></Setter>
+            <Setter Property="Height" Value="50"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+        </Style>
     </Page.Resources>
     <Page.BottomAppBar>
         <CommandBar>
@@ -46,99 +54,155 @@
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="Claregalway Football Club play their home games in East Uniteds ground." />
+                <Button x:ConnectionId='4' Name="clareGalwayLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource Buttons}"
+                    Height="50"
+                                                
+                    HorizontalAlignment="Center"
+                    ></Button>
 
 
-                <Image x:ConnectionId='4' Name=" cregmoreImg" Source="/Assets/cregmore.jpg" />
+                <Image x:ConnectionId='5' Name=" cregmoreImg" Source="/Assets/cregmore.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Club}"
                 
                            Text=" Cregmore/Claregalway Football Club" />
-                <TextBlock x:ConnectionId='5' Name="ccBio"
+                <TextBlock x:ConnectionId='6' Name="ccBio"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text=" Cregmore Claregalway FC is based in Claregalway. The philosophy of our club is to provide a safe and friendly environment where members can enjoy learning and practicing the skills of soccer whilst under the supervision of experienced coaches and in the company of friends. " />
-                <Image x:ConnectionId='6' Name=" bluesbImg" Source="/Assets/dynamoblues.jpg" />
+                <Button x:ConnectionId='7' Name="cregmoreLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource Buttons}"
+                    Height="50"
+                                             
+                    HorizontalAlignment="Center"
+                    ></Button>
+                <Image x:ConnectionId='8' Name=" bluesbImg" Source="/Assets/dynamoblues.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Club}"
                 
                            Text=" Dynamo Blues B Football Club" />
-                <TextBlock x:ConnectionId='7' Name="bluesbBio"
+                <TextBlock x:ConnectionId='9' Name="bluesbBio"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="Dynamo Blues F.C. is  based in Tuam, County Galway. They were founded in 1978. Their senior men's team competes in the Galway and District League. They remain the only club from Tuam and the surrounding areas to have won the Galway and District League Premier Division.The club is nicknamed the blues and plays its home games at College Field." />
-                <Image x:ConnectionId='8' Name=" craughwellImg" Source="/Assets/craughwell.jpg" />
+                <Button x:ConnectionId='10' Name="BluesLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource Buttons}"
+                    Height="50"
+                                          
+                    HorizontalAlignment="Center"
+                    ></Button>
+                <Image x:ConnectionId='11' Name=" craughwellImg" Source="/Assets/craughwell.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Club}"
                 
                            Text=" Craughwell Football Club" />
-                <TextBlock x:ConnectionId='9' Name="craughwellBio"
+                <TextBlock x:ConnectionId='12' Name="craughwellBio"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text=" Craughwell football club was founded in the spring of 1991. The club plays its home matches at colemans pitch.The club has grown massively in recent times." />
-                <Image x:ConnectionId='10' Name="athenrybImg" Source="/Assets/athenry.png" />
+                <Button x:ConnectionId='13' Name="craughwellLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource Buttons}"
+                    Height="50"
+                                               
+                    HorizontalAlignment="Center"
+                    ></Button>
+                <Image x:ConnectionId='14' Name="athenrybImg" Source="/Assets/athenry.png" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Club}"
                 
                            Text=" Athenry B Football Club" />
-                <TextBlock x:ConnectionId='11' Name="athenrybBio"
+                <TextBlock x:ConnectionId='15' Name="athenrybBio"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text=" Founded in 1971, Athenry football club are based in Moanbaun, Athenry, Co. Galway. Athenry Football Club facilities comprise of a main club house with a fully equipped gym with showering facilities, six dressing rooms and also includes meeting rooms. The club has an all weather astro turf pitch which can be rented out. " />
-                <Image x:ConnectionId='12' Name=" loughreabImg" Source="/Assets/loughrea.jpg" />
+                <Button x:ConnectionId='16' Name="athenryLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource Buttons}"
+                    Height="50"
+                                            
+                    HorizontalAlignment="Center"
+                    ></Button>
+                <Image x:ConnectionId='17' Name=" loughreabImg" Source="/Assets/loughrea.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Club}"
                 
                            Text=" Loughrea B Football Club" />
-                <TextBlock x:ConnectionId='13' Name="loughreabBio"
+                <TextBlock x:ConnectionId='18' Name="loughreabBio"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text=" Loughrea rams  was founded in 2011 .All of the clubs home fixtures are played Sunday afternoon at 1.30pm in conjunction with Galway F.A. . The club are  playing their home fixtures in Bushfield, thanks to Loughrea Athletics Club who allow the club to use their facilities. " />
-                <Image x:ConnectionId='14' Name=" colemanstownbImg" Source="/Assets/colemanstown.jpg" />
+                <Button x:ConnectionId='19' Name="loughreaLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource Buttons}"
+                    Height="50"
+                                             
+                    HorizontalAlignment="Center"
+                    ></Button>
+                <Image x:ConnectionId='20' Name=" colemanstownbImg" Source="/Assets/colemanstown.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Club}"
                 
                            Text=" Colemanstown B Football Club" />
-                <TextBlock x:ConnectionId='15' Name="colemanstownbBio"
+                <TextBlock x:ConnectionId='21' Name="colemanstownbBio"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text=" Colemanstown United was founded in 1982. The club has to date played a major role in the affairs of the community which is based past Monivea in north Galway. The club facilities include a  fully drained playing pitch, adjacent floodlit training pitch, shower rooms, meeting rooms, fully equipped kitchen facility and a 200 seater stadium . " />
-                <Image x:ConnectionId='16' Name=" stbernardsbImg" Source="/Assets/stbernads.jpg" />
+                <Button x:ConnectionId='22' Name="ColemanstownLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource Buttons}"
+                    Height="50"
+                                                 
+                    HorizontalAlignment="Center"
+                    ></Button>
+                <Image x:ConnectionId='23' Name=" stbernardsbImg" Source="/Assets/stbernads.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Club}"
                 
                            Text=" St Bernards B Football Club" />
-                <TextBlock x:ConnectionId='17' Name="bernardsbBio"
+                <TextBlock x:ConnectionId='24' Name="bernardsbBio"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text=" Founded in 1972, St Bernards football club are based in Abbeyknockmoy, Co. Galway. St Bernards Football Club won the Galway Premier Divison Title for the first time in 2016. The clubs colours of  yellow and blue take inspiration from a Crystal Palace away kit of the early 1970s." />
+                <Button x:ConnectionId='25' Name="stbernardsLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource Buttons}"
+                    Height="50"
+                                               
+                    HorizontalAlignment="Center"
+                    ></Button>
 
 
 

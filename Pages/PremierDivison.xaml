@@ -78,7 +78,8 @@
                 <Button Name="MervueLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource Buttons}"
-                    Height="50" 
+                    Height="50"
+                    Click="MervueClick"
                     HorizontalAlignment="Center"
                     ></Button>
                 <Image Name="westImg" Source="/Assets/west.jpg" />
@@ -97,7 +98,8 @@
                 <Button Name="WestLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource Buttons}"
-                    Height="50" 
+                    Height="50"
+                    Click="WestClick"
                     HorizontalAlignment="Center"
                     ></Button>
                 <Image Name="corribCelticImg" Source="/Assets/corribceltic.png" />
@@ -116,7 +118,8 @@
                 <Button Name="CorribCelticLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource Buttons}"
-                    Height="50" 
+                    Height="50"
+                    Click="CorribCelticClick"
                     HorizontalAlignment="Center"
                     ></Button>
                 <Image Name="stBernardsImg" Source="/Assets/stbernads.jpg" />
@@ -135,7 +138,8 @@
                 <Button Name="StBernardsLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource Buttons}"
-                    Height="50" 
+                    Height="50"
+                    Click="StBernardsClick"
                     HorizontalAlignment="Center"
                     ></Button>
                 <Image Name="salthillImg" Source="/Assets/salthill.png" />
@@ -154,7 +158,8 @@
                 <Button Name="SalthillLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource Buttons}"
-                    Height="50" 
+                    Height="50"
+                    Click="SalthillClick"
                     HorizontalAlignment="Center"
                     ></Button>
                 <Image Name="corribRangersImg" Source="/Assets/corribrangers.jpg" />
@@ -173,7 +178,8 @@
                 <Button Name="CorribRangersLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource Buttons}"
-                    Height="50" 
+                    Height="50"
+                    Click="CorribRangersClick"
                     HorizontalAlignment="Center"
                     ></Button>
                 <Image Name="colemanstownImage" Source="/Assets/colemanstown.jpg" />
@@ -192,7 +198,8 @@
                 <Button Name="ColemanstownLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource Buttons}"
-                    Height="50" 
+                    Height="50"
+                    Click="ColemanstownClick"
                     HorizontalAlignment="Center"
                     ></Button>
                 <Image Name="hibsImage" Source="/Assets/galwayhibs.png" />
@@ -211,7 +218,8 @@
                 <Button Name="HibsLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource Buttons}"
-                    Height="50" 
+                    Height="50"
+                    Click="HibsClick"
                     HorizontalAlignment="Center"
                     ></Button>
                 <Image Name="loughreaImage" Source="/Assets/loughrea.jpg" />
@@ -230,7 +238,8 @@
                 <Button Name="LoughreaLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource Buttons}"
-                    Height="50" 
+                    Height="50"
+                    Click="LoughreaClick"
                     HorizontalAlignment="Center"
                     ></Button>
             

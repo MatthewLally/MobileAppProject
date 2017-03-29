@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.Devices.Geolocation;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -30,6 +31,70 @@ namespace MobileAppProject.Pages
         {
             //bring user back to the main page
             Frame.Navigate(typeof(HomePage));
+        }
+
+        private void clareGalwayLoc_Click(object sender, RoutedEventArgs e)
+        {
+            BasicGeoposition cityPosition = new BasicGeoposition() { Latitude = 53.2869, Longitude = -9.0073 };
+            Geopoint cityCenter = new Geopoint(cityPosition);
+            Frame.Navigate(typeof(Map), cityCenter);
+
+        }
+
+        private void cregmoreLoc_Click(object sender, RoutedEventArgs e)
+        {
+            BasicGeoposition cityPosition = new BasicGeoposition() { Latitude = 53.3409, Longitude = -8.9457 };
+            Geopoint cityCenter = new Geopoint(cityPosition);
+            Frame.Navigate(typeof(Map), cityCenter);
+
+        }
+
+        private void BluesLoc_Click(object sender, RoutedEventArgs e)
+        {
+            BasicGeoposition cityPosition = new BasicGeoposition() { Latitude = 49.8219, Longitude = -24.0387 };
+            Geopoint cityCenter = new Geopoint(cityPosition);
+            Frame.Navigate(typeof(Map), cityCenter);
+
+        }
+
+        private void craughwellLoc_Click(object sender, RoutedEventArgs e)
+        {
+            BasicGeoposition cityPosition = new BasicGeoposition() { Latitude = 53.2453, Longitude = -8.7645 };
+            Geopoint cityCenter = new Geopoint(cityPosition);
+            Frame.Navigate(typeof(Map), cityCenter);
+
+        }
+
+        private void athenryLoc_Click(object sender, RoutedEventArgs e)
+        {
+            BasicGeoposition cityPosition = new BasicGeoposition() { Latitude = 53.3084, Longitude = -8.7672 };
+            Geopoint cityCenter = new Geopoint(cityPosition);
+            Frame.Navigate(typeof(Map), cityCenter);
+
+        }
+
+        private void loughreaLoc_Click(object sender, RoutedEventArgs e)
+        {
+            BasicGeoposition cityPosition = new BasicGeoposition() { Latitude = 53.2302, Longitude = -8.6267 };
+            Geopoint cityCenter = new Geopoint(cityPosition);
+            Frame.Navigate(typeof(Map), cityCenter);
+
+        }
+
+        private void ColemanstownLoc_Click(object sender, RoutedEventArgs e)
+        {
+            BasicGeoposition cityPosition = new BasicGeoposition() { Latitude = 53.3897, Longitude = -8.6178 };
+            Geopoint cityCenter = new Geopoint(cityPosition);
+            Frame.Navigate(typeof(Map), cityCenter);
+
+        }
+
+        private void stbernardsLoc_Click(object sender, RoutedEventArgs e)
+        {
+            BasicGeoposition cityPosition = new BasicGeoposition() { Latitude = 53.4365, Longitude = -8.7480 };
+            Geopoint cityCenter = new Geopoint(cityPosition);
+            Frame.Navigate(typeof(Map), cityCenter);
+
         }
     }
 }
