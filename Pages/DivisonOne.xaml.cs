@@ -112,5 +112,57 @@ namespace MobileAppProject.Pages
             Frame.Navigate(typeof(Map), cityCenter);
 
         }
+
+        private async void  RenmoreInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("http://www.renmoreafc.com/homepage.html"));
+        }
+
+        private async void EastInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://www.facebook.com/eastunited.fc"));
+
+        }
+
+        private async void oranmoreInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("http://mareeoranmorefc.ie/"));
+
+        }
+
+        private async void NuiInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("http://www.nuigalway.ie/soccer/"));
+
+        }
+
+        private async void TuamCelticInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://www.facebook.com/tuam.celtic.afc/"));
+
+        }
+
+        private async void WestBInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://www.facebook.com/West-Utd-Fc-856356607769082/"));
+        }
+
+        private async void KinvaraInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("http://kinvaraunited.com/"));
+
+        }
+
+        private async void MoyneVillaInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("http://www.moynevilla.ie/"));
+
+        }
+
+        private async void WestCoastInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://twitter.com/westcoastunited?lang=en"));
+
+        }
     }
 }

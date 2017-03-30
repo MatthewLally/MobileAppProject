@@ -96,5 +96,61 @@ namespace MobileAppProject.Pages
             Frame.Navigate(typeof(Map), cityCenter);
 
         }
+
+        private async void MacDaraInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://www.facebook.com/macdarafc?lst=100000613345351%3A100000634865583%3A1490718892"));
+
+        }
+
+        private async void OafcInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("http://www.oughterardafc.com/"));
+
+        }
+
+        private async void BohsInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://sitebuilder.blacknight.com/preview/sites/galwaybohsfc.com/"));
+
+        }
+
+        private async void CoisInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("http://www.cscf.ie/"));
+
+
+        }
+
+        private async void RamblersInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("http://ramblerstest.weebly.com/"));
+
+
+        }
+
+        private async void NuiInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("http://www.nuigalway.ie/soccer/"));   
+
+        }
+
+        private async void CorribCelticInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://sites.google.com/site/corribcelticafc//club-information/"));
+
+        }
+
+        private async void BarnaInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("http://www.sacarbnaf.com/apps/blog/"));
+
+
+        }
+
+        private void RamblersInfo_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

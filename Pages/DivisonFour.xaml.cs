@@ -96,5 +96,47 @@ namespace MobileAppProject.Pages
             Frame.Navigate(typeof(Map), cityCenter);
 
         }
+
+        private async void CregmoreInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("http://www.cregmoreclaregalwayfc.net/home/"));
+
+        }
+
+        private async void BluesInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://www.facebook.com/dynamobluesfc/"));
+
+        }
+
+        private async void CraughwellInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("http://www.craughwellunitedfc.com/"));
+
+        }
+
+        private async void AthenryInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("http://www.athenryfootballclub.com/"));
+
+        }
+
+        private async void LoughreaInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://loughrearamsfc.com/"));
+
+        }
+
+        private async void ColemanstownInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("http://www.colemanstownunited.com/"));
+
+        }
+
+        private async void StbernardsInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://www.facebook.com/bernardsfootball/"));
+
+        }
     }
 }

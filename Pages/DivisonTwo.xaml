@@ -61,6 +61,10 @@
                     Click="BohsLoc_Click"
                     HorizontalAlignment="Center"
                     ></Button>
+                <Button Name="BohsInfo" Content="More Information" 
+                    Style="{StaticResource Buttons}"
+                            Click="BohsInfo_Click"
+                        ></Button>
 
 
                 <Image Name="merlinImg" Source="/Assets/merlinwoods.png" />
@@ -83,6 +87,10 @@
                     Click="MerlinLoc_Click"
                     HorizontalAlignment="Center"
                     ></Button>
+                <Button Name="MerlinInfo" Content="More Information" 
+                    Style="{StaticResource Buttons}"
+                            Click="MerlinInfo_Click"
+                        ></Button>
                 <Image Name="mervueImg" Source="/Assets/Mervue.png" />
                 <TextBlock
                            Margin="0,10,0,0"
@@ -103,6 +111,10 @@
                     Click="MervueBLoc_Click"
                     HorizontalAlignment="Center"
                     ></Button>
+                <Button Name="MervueInfo" Content="More Information" 
+                    Style="{StaticResource Buttons}"
+                            Click="MervueInfo_Click"
+                        ></Button>
                 <Image Name="colgaImg" Source="/Assets/GalwayImage.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
@@ -123,6 +135,10 @@
                     Click="ColgaLoc_Click"
                     HorizontalAlignment="Center"
                     ></Button>
+                <Button Name="ColgaInfo" Content="More Information" 
+                    Style="{StaticResource Buttons}"
+                            Click="ColgaInfo_Click"
+                        ></Button>
                 <Image Name="hibsbImg" Source="/Assets/galwayhibs.png" />
                 <TextBlock
                            Margin="0,10,0,0"
@@ -143,6 +159,10 @@
                     Click="HibsBLoc_Click"
                     HorizontalAlignment="Center"
                     ></Button>
+                <Button Name="HibsInfo" Content="More Information" 
+                    Style="{StaticResource Buttons}"
+                            Click="HibsInfo_Click"
+                        ></Button>
                 <Image Name="kiltullaghImg" Source="/Assets/kiltullagh.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
@@ -163,6 +183,10 @@
                     Click="KiltullaghLoc_Click"
                     HorizontalAlignment="Center"
                     ></Button>
+                <Button Name="KiltullaghInfo" Content="More Information" 
+                    Style="{StaticResource Buttons}"
+                            Click="KiltullaghInfo_Click"
+                        ></Button>
                 <Image Name="dynamoBluesImg" Source="/Assets/dynamoblues.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
@@ -183,6 +207,10 @@
                     Click="BluesLoc_Click"
                     HorizontalAlignment="Center"
                     ></Button>
+                <Button Name="BluesInfo" Content="More Information" 
+                    Style="{StaticResource Buttons}"
+                            Click="BluesInfo_Click"
+                        ></Button>
                 <Image Name="knocknacarraImg" Source="/Assets/kfc.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
@@ -203,6 +231,10 @@
                     Click="kfcLoc_Click"
                     HorizontalAlignment="Center"
                     ></Button>
+                <Button Name="KfcInfo" Content="More Information" 
+                    Style="{StaticResource Buttons}"
+                            Click="KfcInfo_Click"
+                        ></Button>
             </StackPanel>
 
 

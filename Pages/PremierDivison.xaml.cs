@@ -93,5 +93,61 @@ namespace MobileAppProject.Pages
             Frame.Navigate(typeof(HomePage));
         }
 
+        private async void MervueInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("http://www.mervueunited.com/"));
+
+        }
+
+        private async void AthenryInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("http://www.athenryfootballclub.com/"));
+
+        }
+
+        private async void WestInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://www.facebook.com/West-Utd-Fc-856356607769082/"));
+        }
+
+        private async void CorribCelticInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://sites.google.com/site/corribcelticafc//club-information/"));
+
+        }
+
+        private async void StBernardsInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://www.facebook.com/bernardsfootball/"));
+        }
+
+        private  async void SalthillInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("http://www.salthilldevon.ie/"));
+
+        }
+
+        private async void CorribRangersInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://www.facebook.com/Corrib-Rangers-FC-120056611346762/"));
+
+        }
+
+        private async void ColemanstownInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("http://www.colemanstownunited.com/"));
+
+        }
+
+        private async void HibsInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://www.facebook.com/galway.hibernians/"));
+
+        }
+
+        private async void LoughreaInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://loughrearamsfc.com/"));
+        }
     }
 }

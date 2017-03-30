@@ -104,5 +104,52 @@ namespace MobileAppProject.Pages
 
 
         }
+
+        private async void BohsInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://sitebuilder.blacknight.com/preview/sites/galwaybohsfc.com/"));
+
+        }
+
+        private async void MerlinInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("http://merlinwoodsfc.blogspot.ie/2016/08/merlin-woods-fc-womens.html"));
+        }
+
+        private async void MervueInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("http://www.mervueunited.com/"));
+
+        }
+
+        private async void ColgaInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("http://www.colgafc.ie/"));
+
+        }
+
+        private async void HibsInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://www.facebook.com/galway.hibernians/"));
+
+        }
+
+        private async void KiltullaghInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://www.facebook.com/kiltullaghpioneersfc/"));
+
+        }
+
+        private async void BluesInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://www.facebook.com/dynamobluesfc/"));
+
+        }
+
+        private async void KfcInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://sitebuilder.blacknight.com/preview/sites/galwaybohsfc.com/"));
+
+        }
     }
 }

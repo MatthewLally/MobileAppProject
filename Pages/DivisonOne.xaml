@@ -61,6 +61,10 @@
                     Click="RenmoreLoc_Click"
                     HorizontalAlignment="Center"
                     ></Button>
+                <Button Name="RenmoreInfo" Content="More Information" 
+                    Style="{StaticResource Buttons}"
+                            Click="RenmoreInfo_Click"
+                        ></Button>
                 
                            
                 <Image Name="westCoastImg" Source="/Assets/westcoast.jpeg" />
@@ -83,6 +87,10 @@
                     Click="WestCoastLoc_Click"
                     HorizontalAlignment="Center"
                     ></Button>
+                <Button Name="WestCoastInfo" Content="More Information" 
+                    Style="{StaticResource Buttons}"
+                            Click="WestCoastInfo_Click"
+                        ></Button>
                 <Image Name="eastutdImg" Source="/Assets/eastunited.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
@@ -103,6 +111,10 @@
                     Click="EastUnitedLoc_Click"
                     HorizontalAlignment="Center"
                     ></Button>
+                <Button Name="EastInfo" Content="More Information" 
+                    Style="{StaticResource Buttons}"
+                            Click="EastInfo_Click"
+                        ></Button>
                 <Image Name="oranmoreImg" Source="/Assets/oranmore.png" />
                 <TextBlock
                            Margin="0,10,0,0"
@@ -123,6 +135,10 @@
                     Click="MareeLoc_Click"
                     HorizontalAlignment="Center"
                     ></Button>
+                <Button Name="oranmoreInfo" Content="More Information" 
+                    Style="{StaticResource Buttons}"
+                            Click="oranmoreInfo_Click"
+                        ></Button>
                 <Image Name="nuiImg" Source="/Assets/nui.png" />
                 <TextBlock
                            Margin="0,10,0,0"
@@ -143,6 +159,10 @@
                     Click="NuiLoc_Click"
                     HorizontalAlignment="Center"
                     ></Button>
+                <Button Name="NuiInfo" Content="More Information" 
+                    Style="{StaticResource Buttons}"
+                            Click="NuiInfo_Click"
+                        ></Button>
                 <Image Name="tuamcelticImg" Source="/Assets/tuamceltic.png" />
                 <TextBlock
                            Margin="0,10,0,0"
@@ -163,6 +183,10 @@
                     Click="TuamCelticLoc_Click"
                     HorizontalAlignment="Center"
                     ></Button>
+                <Button Name="TuamCelticInfo" Content="More Information" 
+                    Style="{StaticResource Buttons}"
+                            Click="TuamCelticInfo_Click"
+                        ></Button>
                 <Image Name="westbImg" Source="/Assets/west.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
@@ -183,6 +207,10 @@
                     Click="WestLoc_Click"
                     HorizontalAlignment="Center"
                     ></Button>
+                <Button Name="WestBInfo" Content="More Information" 
+                    Style="{StaticResource Buttons}"
+                            Click="WestBInfo_Click"
+                        ></Button>
                 <Image Name="kinvaraImg" Source="/Assets/kinvara.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
@@ -203,6 +231,10 @@
                     Click="KinvaraLoc_Click"
                     HorizontalAlignment="Center"
                     ></Button>
+                <Button Name="KinvaraInfo" Content="More Information" 
+                    Style="{StaticResource Buttons}"
+                            Click="KinvaraInfo_Click"
+                        ></Button>
                 
                 <Image Name="moyneVillaImg" Source="/Assets/moynevilla.jpg" />
                 <TextBlock
@@ -224,6 +256,10 @@
                     Click="MoyneVillaLoc_Click"
                     HorizontalAlignment="Center"
                     ></Button>
+                <Button Name="MoyneVillaInfo" Content="More Information" 
+                    Style="{StaticResource Buttons}"
+                            Click="MoyneVillaInfo_Click"
+                        ></Button>
                 <Image Name="stPatsImg" Source="/Assets/GalwayImage.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
@@ -236,7 +272,7 @@
                            HorizontalAlignment="Center"
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
-                           Text="St Patricks football club are based in Tuam, County Galway and play their home matches in Caherlistrane. "/>
+                           Text="St Patricks football club are based in Tuam, County Galway and play their home matches in Caherlistrane. I was unable to find any more information about this club online."/>
                 <Button Name="PatsLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource Buttons}"

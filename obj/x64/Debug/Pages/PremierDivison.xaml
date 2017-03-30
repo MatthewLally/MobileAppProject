@@ -61,189 +61,229 @@
                                         
                     HorizontalAlignment="Center"
                     ></Button>
+                <Button x:ConnectionId='5' Name="AthenryInfo" Content="More Information" 
+                    Style="{StaticResource Buttons}"
+                                                     
+                        ></Button>
 
-                <Image x:ConnectionId='5' Name="mervueImg" Source="/Assets/Mervue.png" />
+                <Image x:ConnectionId='6' Name="mervueImg" Source="/Assets/Mervue.png" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Club}"
                 
                            Text="Mervue United Football Club" />
-                <TextBlock x:ConnectionId='6' Name="mervueBio"
+                <TextBlock x:ConnectionId='7' Name="mervueBio"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="Founded in 1960, Mervue United football club are based in Mervue, Co. Galway. Mervue United Football Club facilities comprise of a main club house with a fully equipped gym with showering facilities, twelve dressing rooms and also includes meeting rooms. The club has an all weather astro turf pitch which can be rented out. The club has had many players move to play football in England and many players associated with the club have been capped for the Irish team at junior and senior levels" />
-                <Button x:ConnectionId='7' Name="MervueLoc" Content="Location" 
+                <Button x:ConnectionId='8' Name="MervueLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource Buttons}"
                     Height="50"
                                        
                     HorizontalAlignment="Center"
                     ></Button>
-                <Image x:ConnectionId='8' Name="westImg" Source="/Assets/west.jpg" />
+                <Button x:ConnectionId='9' Name="MervueInfo" Content="More Information" 
+                    Style="{StaticResource Buttons}"
+                                                    
+                        ></Button>
+                <Image x:ConnectionId='10' Name="westImg" Source="/Assets/west.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Club}"
                 
                            Text="West United Football Club" />
-                <TextBlock x:ConnectionId='9' Name="westBio"
+                <TextBlock x:ConnectionId='11' Name="westBio"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="Founded in 1945, West United football club are based in Claddagh, Co. Galway. West United Football Club facilities comprise of a main club house with showering facilities, dressing rooms and also includes meeting rooms. The club plays its home matches at O Connor Park known as Swamp . The club has had a very long and succesful history in the Galway leagues and cup competitions." />
-                <Button x:ConnectionId='10' Name="WestLoc" Content="Location" 
+                <Button x:ConnectionId='12' Name="WestLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource Buttons}"
                     Height="50"
                                      
                     HorizontalAlignment="Center"
                     ></Button>
-                <Image x:ConnectionId='11' Name="corribCelticImg" Source="/Assets/corribceltic.png" />
+                <Button x:ConnectionId='13' Name="WestInfo" Content="More Information" 
+                    Style="{StaticResource Buttons}"
+                                                  
+                        ></Button>
+                <Image x:ConnectionId='14' Name="corribCelticImg" Source="/Assets/corribceltic.png" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Club}"
                 
                            Text="Corrib Celtic Football Club" />
-                <TextBlock x:ConnectionId='12' Name="corribCelticBio"
+                <TextBlock x:ConnectionId='15' Name="corribCelticBio"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="Founded in 1985, Corrib Celtic football club are based in Annaghdown, Co. Galway. Corrib Celtic Football Club is named after the nearby Lough Corrib. The club plays it home games in Gort Scully." />
-                <Button x:ConnectionId='13' Name="CorribCelticLoc" Content="Location" 
+                <Button x:ConnectionId='16' Name="CorribCelticLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource Buttons}"
                     Height="50"
                                              
                     HorizontalAlignment="Center"
                     ></Button>
-                <Image x:ConnectionId='14' Name="stBernardsImg" Source="/Assets/stbernads.jpg" />
+                <Button x:ConnectionId='17' Name="CorribCelticInfo" Content="More Information" 
+                    Style="{StaticResource Buttons}"
+                                                          
+                        ></Button>
+                <Image x:ConnectionId='18' Name="stBernardsImg" Source="/Assets/stbernads.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Club}"
                 
                            Text="St Bernards Football Club" />
-                <TextBlock x:ConnectionId='15' Name="stBernardsBio"
+                <TextBlock x:ConnectionId='19' Name="stBernardsBio"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="Founded in 1972, St Bernards football club are based in Abbeyknockmoy, Co. Galway. St Bernards Football Club won the Galway Premier Divison Title for the first time in 2016. The clubs colours of  yellow and blue take inspiration from a Crystal Palace away kit of the early 1970s." />
-                <Button x:ConnectionId='16' Name="StBernardsLoc" Content="Location" 
+                <Button x:ConnectionId='20' Name="StBernardsLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource Buttons}"
                     Height="50"
                                            
                     HorizontalAlignment="Center"
                     ></Button>
-                <Image x:ConnectionId='17' Name="salthillImg" Source="/Assets/salthill.png" />
+                <Button x:ConnectionId='21' Name="StBernardsInfo" Content="More Information" 
+                    Style="{StaticResource Buttons}"
+                                                        
+                        ></Button>
+                <Image x:ConnectionId='22' Name="salthillImg" Source="/Assets/salthill.png" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Club}"
                 
                            Text="Salthill Devon Football Club" />
-                <TextBlock x:ConnectionId='18' Name="salthillBio"
+                <TextBlock x:ConnectionId='23' Name="salthillBio"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="Salthill Devon Football Club, founded in 1947 as the Salthill Crusaders, became Salthill Athletic in 1950 and finally Salthill Devon Football Club in 1977. Today it is a nationally-recognised brand, with a reputation as one of the most progressive, organised and successful clubs in the country.Salthill Devon Football Club, play their home games in the first-class soccer facility at Drom Soccer Park, Drom East, Rahoon, Galway.The Club has enjoyed considerable success on the playing field, reaching and winning National Finals at all levels, and regularly making it into the last eight of the national competitions." />
-                <Button x:ConnectionId='19' Name="SalthillLoc" Content="Location" 
+                <Button x:ConnectionId='24' Name="SalthillLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource Buttons}"
                     Height="50"
                                          
                     HorizontalAlignment="Center"
                     ></Button>
-                <Image x:ConnectionId='20' Name="corribRangersImg" Source="/Assets/corribrangers.jpg" />
+                <Button x:ConnectionId='25' Name="SalthillInfo" Content="More Information" 
+                    Style="{StaticResource Buttons}"
+                                                      
+                        ></Button>
+                <Image x:ConnectionId='26' Name="corribRangersImg" Source="/Assets/corribrangers.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Club}"
                 
                            Text="Corrib Rangers Football Club" />
-                <TextBlock x:ConnectionId='21' Name="corribRangersBio"
+                <TextBlock x:ConnectionId='27' Name="corribRangersBio"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="Corrib Rangers Football Club, founded in 1975 are based in the westside of Galway city. The club is named after the nearby corrib park and is very succesful and has spent many seasosns in the Premier Divison and has been succesful in many competitions." />
-                <Button x:ConnectionId='22' Name="CorribRangersLoc" Content="Location" 
+                <Button x:ConnectionId='28' Name="CorribRangersLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource Buttons}"
                     Height="50"
                                               
                     HorizontalAlignment="Center"
                     ></Button>
-                <Image x:ConnectionId='23' Name="colemanstownImage" Source="/Assets/colemanstown.jpg" />
+                <Button x:ConnectionId='29' Name="CorribRangersInfo" Content="More Information" 
+                    Style="{StaticResource Buttons}"
+                                                           
+                        ></Button>
+                <Image x:ConnectionId='30' Name="colemanstownImage" Source="/Assets/colemanstown.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Club}"
                 
                            Text="Colemanstown United" />
-                <TextBlock x:ConnectionId='24' Name="colemanstownBio"
+                <TextBlock x:ConnectionId='31' Name="colemanstownBio"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="Colemanstown United was founded in 1982. The club has to date played a major role in the affairs of the community which is based past Monivea in north Galway. The club facilities include a  fully drained playing pitch, adjacent floodlit training pitch, shower rooms, meeting rooms, fully equipped kitchen facility and a 200 seater stadium "/>
-                <Button x:ConnectionId='25' Name="ColemanstownLoc" Content="Location" 
+                <Button x:ConnectionId='32' Name="ColemanstownLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource Buttons}"
                     Height="50"
                                              
                     HorizontalAlignment="Center"
                     ></Button>
-                <Image x:ConnectionId='26' Name="hibsImage" Source="/Assets/galwayhibs.png" />
+                <Button x:ConnectionId='33' Name="ColemanstownInfo" Content="More Information" 
+                    Style="{StaticResource Buttons}"
+                                                          
+                        ></Button>
+                <Image x:ConnectionId='34' Name="hibsImage" Source="/Assets/galwayhibs.png" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Club}"
                 
                            Text="Galway Hibernians" />
-                <TextBlock x:ConnectionId='27' Name="Hibs"
+                <TextBlock x:ConnectionId='35' Name="Hibs"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="Galway Hibernians were founded in 1982. Called Hibs by most the club has some impressive including an astro turf, a floodlight and fully drained pitch and a state of the art new clubhouse with a range of facilities. The club has been very succesfully and has won many trophies. The club is based in Bohermore , Galway." />
-                <Button x:ConnectionId='28' Name="HibsLoc" Content="Location" 
+                <Button x:ConnectionId='36' Name="HibsLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource Buttons}"
                     Height="50"
                                      
                     HorizontalAlignment="Center"
                     ></Button>
-                <Image x:ConnectionId='29' Name="loughreaImage" Source="/Assets/loughrea.jpg" />
+                <Button x:ConnectionId='37' Name="HibsInfo" Content="More Information" 
+                    Style="{StaticResource Buttons}"
+                                                  
+                        ></Button>
+                <Image x:ConnectionId='38' Name="loughreaImage" Source="/Assets/loughrea.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Club}"
                 
                            Text="Loughrea Rams" />
-                <TextBlock x:ConnectionId='30' Name="Loughrea"
+                <TextBlock x:ConnectionId='39' Name="Loughrea"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="Loughrea rams are the newest club in the Premier Divison. The club was founded in 2011 and achived promation to the Premier Divison for the current 16/17 season.All of the clubs home fixtures are played Sunday afternoon at 1.30pm in conjunction with Galway F.A. . The club are  playing their home fixtures in Bushfield, thanks to Loughrea Athletics Club who allow the club to use their facilities. " />
-                <Button x:ConnectionId='31' Name="LoughreaLoc" Content="Location" 
+                <Button x:ConnectionId='40' Name="LoughreaLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource Buttons}"
                     Height="50"
                                          
                     HorizontalAlignment="Center"
                     ></Button>
-            
-                           
+                <Button x:ConnectionId='41' Name="LoughreaInfo" Content="More Information" 
+                    Style="{StaticResource Buttons}"
+                                                      
+                        ></Button>
+
+
 
             </StackPanel>
             

@@ -53,7 +53,7 @@
                            HorizontalAlignment="Center"
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
-                           Text="Claregalway Football Club play their home games in East Uniteds ground." />
+                           Text="Claregalway Football Club play their home games in East Uniteds ground. I was unable to find more information on this club." />
                 <Button Name="clareGalwayLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource Buttons}"
@@ -61,6 +61,7 @@
                     Click="clareGalwayLoc_Click"
                     HorizontalAlignment="Center"
                     ></Button>
+                
 
 
                 <Image Name=" cregmoreImg" Source="/Assets/cregmore.jpg" />
@@ -83,6 +84,10 @@
                     Click="cregmoreLoc_Click"
                     HorizontalAlignment="Center"
                     ></Button>
+                <Button Name="CregmoreInfo" Content="More Information" 
+                    Style="{StaticResource Buttons}"
+                            Click="CregmoreInfo_Click"
+                        ></Button>
                 <Image Name=" bluesbImg" Source="/Assets/dynamoblues.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
@@ -103,6 +108,10 @@
                     Click="BluesLoc_Click"
                     HorizontalAlignment="Center"
                     ></Button>
+                <Button Name="BluesInfo" Content="More Information" 
+                    Style="{StaticResource Buttons}"
+                            Click="BluesInfo_Click"
+                        ></Button>
                 <Image Name=" craughwellImg" Source="/Assets/craughwell.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
@@ -123,6 +132,10 @@
                     Click="craughwellLoc_Click"
                     HorizontalAlignment="Center"
                     ></Button>
+                <Button Name="CraughwellInfo" Content="More Information" 
+                    Style="{StaticResource Buttons}"
+                            Click="CraughwellInfo_Click"
+                        ></Button>
                 <Image Name="athenrybImg" Source="/Assets/athenry.png" />
                 <TextBlock
                            Margin="0,10,0,0"
@@ -143,6 +156,10 @@
                     Click="athenryLoc_Click"
                     HorizontalAlignment="Center"
                     ></Button>
+                <Button Name="AthenryInfo" Content="More Information" 
+                    Style="{StaticResource Buttons}"
+                            Click="AthenryInfo_Click"
+                        ></Button>
                 <Image Name=" loughreabImg" Source="/Assets/loughrea.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
@@ -163,6 +180,10 @@
                     Click="loughreaLoc_Click"
                     HorizontalAlignment="Center"
                     ></Button>
+                <Button Name="LoughreaInfo" Content="More Information" 
+                    Style="{StaticResource Buttons}"
+                            Click="LoughreaInfo_Click"
+                        ></Button>
                 <Image Name=" colemanstownbImg" Source="/Assets/colemanstown.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
@@ -183,6 +204,10 @@
                     Click="ColemanstownLoc_Click"
                     HorizontalAlignment="Center"
                     ></Button>
+                <Button Name="ColemanstownInfo" Content="More Information" 
+                    Style="{StaticResource Buttons}"
+                            Click="ColemanstownInfo_Click"
+                        ></Button>
                 <Image Name=" stbernardsbImg" Source="/Assets/stbernads.jpg" />
                 <TextBlock
                            Margin="0,10,0,0"
@@ -203,6 +228,10 @@
                     Click="stbernardsLoc_Click"
                     HorizontalAlignment="Center"
                     ></Button>
+                <Button Name="StbernardsInfo" Content="More Information" 
+                    Style="{StaticResource Buttons}"
+                            Click="StbernardsInfo_Click"
+                        ></Button>
 
 
 
