@@ -1,5 +1,7 @@
 App.xbf
 MainPage.xbf
+Pages\AddPlayers.xbf
+Pages\DeleteUpdatePlayers.xbf
 Pages\DivisonFour.xbf
 Pages\DivisonOne.xbf
 Pages\DivisonThree.xbf
@@ -7,3 +9,4 @@ Pages\DivisonTwo.xbf
 Pages\HomePage.xbf
 Pages\Map.xbf
 Pages\PremierDivison.xbf
+Pages\ReadPlayers.xbf

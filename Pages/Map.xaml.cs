@@ -18,7 +18,7 @@ namespace MobileAppProject.Pages
     /// </summary>
     public sealed partial class Map : Page
     {
-        public Helper Helper = new Helper();
+        public Helper Helper = new Helper(); //Calls helper class
         public int indexPosition = 1;
 
         public Map()
@@ -36,20 +36,20 @@ namespace MobileAppProject.Pages
 
         }
 
-        private async void ShowRouteOnMap(Geopoint startPoint, Geopoint endPoint)
+        private async void ShowRouteOnMap(Geopoint startPoint, Geopoint endPoint) //get route 
         {
            
-            MapRouteFinderResult routeResult = await MapRouteFinder.GetDrivingRouteAsync(
+            MapRouteFinderResult routeResult = await MapRouteFinder.GetDrivingRouteAsync( //get result from map
                 startPoint, endPoint,
-                MapRouteOptimization.Time,
+                MapRouteOptimization.Time, //Get result optimised from time
                 MapRouteRestrictions.None);
 
             
             if (routeResult.Status == MapRouteFinderStatus.Success) //If route Results finds a map route do this
             {
                 myMap.Routes.Clear();
-                MapRouteView viewOfRoute = new MapRouteView(routeResult.Route);
-                viewOfRoute.RouteColor = Colors.Yellow;
+                MapRouteView viewOfRoute = new MapRouteView(routeResult.Route); //set map route as route result
+                viewOfRoute.RouteColor = Colors.Yellow; //sets route color in yellow
                 viewOfRoute.OutlineColor = Colors.Black;
 
                 myMap.Routes.Add(viewOfRoute);
@@ -69,12 +69,12 @@ namespace MobileAppProject.Pages
            
             Geopoint Destination = (Geopoint)e.Parameter;
             Geopoint myPoint = await Helper.Position();
-            myMap.ZoomLevel = 20;
+            myMap.ZoomLevel = 20; //sets map zoom level
             myMap.Center = myPoint;
-            indexPosition++;
-            ShowRouteOnMap(myPoint, Destination);
+            indexPosition++; //adds one to the index position
+            ShowRouteOnMap(myPoint, Destination); //Shows user and destination on help
 
-            Geopoint position = await Helper.Position();
+            Geopoint position = await Helper.Position(); //Waiting for position 
             DependencyObject marker = Helper.Marker();
             myMap.Children.Add(marker);
             MapControl.SetLocation(marker, position);

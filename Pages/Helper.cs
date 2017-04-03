@@ -17,14 +17,14 @@ namespace MobileAppProject.Pages
     {
         public async Task<Geopoint> Position()
         {
-            return (await new Geolocator().GetGeopositionAsync()).Coordinate.Point;
+            return (await new Geolocator().GetGeopositionAsync()).Coordinate.Point; //Waiting to get location of user
         }
 
         public UIElement Marker()
         {
             // Creates a canvas to show the user and their destination
-            Canvas marker = new Canvas();
-            Ellipse outer = new Ellipse();
+            Canvas marker = new Canvas(); //creates a canvas
+            Ellipse outer = new Ellipse();//Creates an ellipse
             outer.Fill = new SolidColorBrush(Color.FromArgb(255, 0, 0, 0));
             outer.Margin = new Thickness(-12.5, -12.5, 0, 0);
             Ellipse inner = new Ellipse() { Width = 60, Height = 60 };
@@ -33,8 +33,8 @@ namespace MobileAppProject.Pages
             core.Fill = new SolidColorBrush(Colors.Maroon);
             core.Margin = new Thickness(-10, -10, 0, 0);
             TextBlock you = new TextBlock();
-            you.Text = "You are currently Here";
-            you.Foreground = new SolidColorBrush(Colors.Aqua);
+            you.Text = "You are currently Here"; //Prints a text block telling users where they are
+            you.Foreground = new SolidColorBrush(Colors.Black);
             you.Margin = new Thickness(-20, -30, 0, 0); ;
             marker.Children.Add(outer);
             marker.Children.Add(inner);
@@ -45,15 +45,15 @@ namespace MobileAppProject.Pages
 
         public UIElement MarkerText(String Text)
         {
-            // Creating the text for the marker
+            // Creating marker
             Canvas marker = new Canvas();
             TextBlock text = new TextBlock();
             text.Foreground = new SolidColorBrush(Colors.Red);
             marker.Background = new SolidColorBrush(Colors.Black);
-            text.FontSize = 16;
+            text.FontSize = 16; //seting font size
             text.Text = Text;
             marker.Children.Add(text);
-            return marker;
+            return marker; //returns the marker
 
         }
     }

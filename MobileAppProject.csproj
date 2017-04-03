@@ -98,6 +98,15 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="PageHelpers\DatabaseHelperClass.cs" />
+    <Compile Include="PageHelpers\Players.cs" />
+    <Compile Include="PageHelpers\ReadAllPlayers.cs" />
+    <Compile Include="Pages\AddPlayers.xaml.cs">
+      <DependentUpon>AddPlayers.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\DeleteUpdatePlayers.xaml.cs">
+      <DependentUpon>DeleteUpdatePlayers.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Helper.cs" />
     <Compile Include="Pages\DivisonFour.xaml.cs">
       <DependentUpon>DivisonFour.xaml</DependentUpon>
@@ -120,6 +129,11 @@
     <Compile Include="Pages\PremierDivison.xaml.cs">
       <DependentUpon>PremierDivison.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\ReadPlayers.xaml.cs">
+      <DependentUpon>ReadPlayers.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SQLite.cs" />
+    <Compile Include="Pages\SQLiteAsync.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -178,6 +192,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Pages\AddPlayers.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\DeleteUpdatePlayers.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\DivisonFour.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -203,6 +225,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\PremierDivison.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\ReadPlayers.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -35,9 +35,10 @@ namespace MobileAppProject.Pages
 
         private void clareGalwayLoc_Click(object sender, RoutedEventArgs e)
         {
-            BasicGeoposition cityPosition = new BasicGeoposition() { Latitude = 53.2869, Longitude = -9.0073 };
-            Geopoint cityCenter = new Geopoint(cityPosition);
-            Frame.Navigate(typeof(Map), cityCenter);
+            BasicGeoposition cityPosition = new BasicGeoposition() { Latitude = 53.2869, Longitude = -9.0073 }; //Sets coordinates
+            Geopoint cityCenter = new Geopoint(cityPosition); //sets the city center as the city posistion
+            Frame.Navigate(typeof(Map), cityCenter); //Navigates to this point on the map
+            //This Code is essentially repeated on all Pages
 
         }
 
@@ -99,7 +100,7 @@ namespace MobileAppProject.Pages
 
         private async void CregmoreInfo_Click(object sender, RoutedEventArgs e)
         {
-            await Windows.System.Launcher.LaunchUriAsync(new Uri("http://www.cregmoreclaregalwayfc.net/home/"));
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("http://www.cregmoreclaregalwayfc.net/home/")); //If clicked navigate to this webpage
 
         }
 

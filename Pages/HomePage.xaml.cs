@@ -34,7 +34,7 @@ namespace MobileAppProject.Pages
 
         private void Premier_Click(object sender, RoutedEventArgs e)
         {
-            MyFrame.Navigate(typeof(PremierDivison));
+            MyFrame.Navigate(typeof(PremierDivison)); //If clicked navigate to this page
         }
 
         private void DivisonOne_Click(object sender, RoutedEventArgs e)
@@ -55,6 +55,17 @@ namespace MobileAppProject.Pages
         private void DivisonFour_Click(object sender, RoutedEventArgs e)
         {
             MyFrame.Navigate(typeof(DivisonFour));
-        } 
+        }
+
+        private void AddPlayers_Click(object sender, RoutedEventArgs e)
+        {
+            MyFrame.Navigate(typeof(AddPlayers));
+        }
+        private void ViewPlayers_Click(object sender, RoutedEventArgs e)
+        {
+            MyFrame.Navigate(typeof(ReadPlayers));
+        }
+
+
     }
 }

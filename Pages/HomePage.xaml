@@ -6,51 +6,80 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-    <SplitView x:Name="MySplitView" DisplayMode="CompactOverlay"  IsPaneOpen="False" 
-              CompactPaneLength="50" OpenPaneLength="150">
-        <SplitView.Pane>
-            <StackPanel Background="Gray">
-                <Button x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
-                    Width="50" Height="50" Background="Transparent" Click="HamburgerButton_Click"/>
-                <StackPanel Orientation="Horizontal">
-                    <Button x:Name="PremierDivison" FontFamily="Segoe MDL2 Assets" Content="&#xE825;"
+    <!-- Sets up page resources-->
+    <Page.Resources>
+        <Style TargetType="TextBlock" x:Key="Desc">
+            <Setter Property="FontSize" Value="18"></Setter>
+            <Setter Property="Foreground" Value="#F8CF8B"></Setter>
+            <!-- Sets font size, sets the text to the foreground and sets the background colour-->
+        </Style>
+    </Page.Resources>
+    <Grid Background="#3A4F41">
+        <!-- Sets up grid background colour-->
+        <!-- Sets up scroll viewer-->
+        <ScrollViewer
+                Grid.Row="0" 
+                Height="600"
+                VerticalScrollBarVisibility="Auto"
+            >
+            <SplitView x:Name="MySplitView" DisplayMode="CompactOverlay"  IsPaneOpen="False" 
+              CompactPaneLength="50" OpenPaneLength="150"> <!--Creates a split view , which is not open by default -->
+                <SplitView.Pane>
+                    <StackPanel Background="Gray"> <!--sets background to grey -->
+                        <Button x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
+                    Width="50" Height="50" Background="Transparent" Click="HamburgerButton_Click"/> <!--creates a button and clicked event which goes to the event handler -->
+                        <StackPanel Orientation="Horizontal">
+                            <Button x:Name="PremierDivison" FontFamily="Segoe MDL2 Assets" Content="&#xE0B4;"
                     Width="50" Height="50" Background="Transparent" Click="Premier_Click"/>
-                    <TextBlock TextWrapping ="Wrap" Text="Premier Divison" FontSize="18" VerticalAlignment="Center" />
-                </StackPanel>
-                <StackPanel Orientation="Horizontal">
-                    <Button x:Name="DivisonOne" FontFamily="Segoe MDL2 Assets" Content="&#xE10F;"
+                            <TextBlock TextWrapping ="Wrap" Text="Premier Divison" FontSize="18" VerticalAlignment="Center" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Button x:Name="DivisonOne" FontFamily="Segoe MDL2 Assets" Content="&#xE11D;"
                         Width="50" Height="50" Background="Transparent" Click="DivisonOne_Click"/>
-                    <TextBlock TextWrapping ="Wrap" Text="Divison One" FontSize="18" VerticalAlignment="Center" />
-                </StackPanel>
-                <StackPanel Orientation="Horizontal">
-                    <Button x:Name="DivisonTwo" FontFamily="Segoe MDL2 Assets" Content="&#xE1D6;"
+                            <TextBlock TextWrapping ="Wrap" Text="Divison One" FontSize="18" VerticalAlignment="Center" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Button x:Name="DivisonTwo" FontFamily="Segoe MDL2 Assets" Content="&#xE11D;"
                         Width="50" Height="50" Background="Transparent" Click="DivisonTwo_Click"/>
-                    <TextBlock TextWrapping ="Wrap" Text="Divison Two" FontSize="18" VerticalAlignment="Center" />
-                </StackPanel>
-                <StackPanel Orientation="Horizontal">
-                    <Button x:Name="DivisonThree" FontFamily="Segoe MDL2 Assets" Content="&#xE1D6;"
+                            <TextBlock TextWrapping ="Wrap" Text="Divison Two" FontSize="18" VerticalAlignment="Center" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Button x:Name="DivisonThree" FontFamily="Segoe MDL2 Assets" Content="&#xE1D6;"
                         Width="50" Height="50" Background="Transparent" Click="DivisonThree_Click"/>
-                    <TextBlock TextWrapping ="Wrap" Text="Divison Three" FontSize="18" VerticalAlignment="Center" />
-                </StackPanel>
-                <StackPanel Orientation="Horizontal">
-                    <Button x:Name="DivisonFour" FontFamily="Segoe MDL2 Assets" Content="&#xE1D6;"
+                            <TextBlock TextWrapping ="Wrap" Text="Divison Three" FontSize="18" VerticalAlignment="Center" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Button x:Name="DivisonFour" FontFamily="Segoe MDL2 Assets" Content="&#xE0B4;"
                         Width="50" Height="50" Background="Transparent" Click="DivisonFour_Click"/>
-                    <TextBlock TextWrapping ="Wrap" Text="Divison Four" FontSize="18" VerticalAlignment="Center" />
-                </StackPanel>
-            </StackPanel>
+                            <TextBlock TextWrapping ="Wrap" Text="Divison Four" FontSize="18" VerticalAlignment="Center" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Button x:Name="AddPlayers" FontFamily="Segoe MDL2 Assets" Content="&#xE109;"
+                        Width="50" Height="50" Background="Transparent" Click="AddPlayers_Click"/>
+                            <TextBlock TextWrapping ="Wrap" Text="Add Players" FontSize="18" VerticalAlignment="Center" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Button x:Name="ViewPlayers" FontFamily="Segoe MDL2 Assets" Content="&#xE104;"
+                        Width="50" Height="50" Background="Transparent" Click="ViewPlayers_Click"/>
+                            <TextBlock TextWrapping ="Wrap" Text="View Players" FontSize="18" VerticalAlignment="Center" />
+                        </StackPanel>
+                    </StackPanel>
 
-        </SplitView.Pane>
-        <SplitView.Content>
-            <Frame Name="MyFrame">
-                <TextBlock TextWrapping ="Wrap" Text="Welcome to the Galway soccer guide, please click on of the links to view information on the teams currently playing football in Galways five junior football divisons and view the locations of the clubs!" 
-                           Margin="0, -7, 0, 0"
-                           FontSize="20"
+                </SplitView.Pane>
+                <SplitView.Content>
+                    <Frame Name="MyFrame">
+                        <StackPanel Orientation="Vertical" VerticalAlignment="Stretch" >
+                            <Image Name="GalwayImg" Source="/Assets/GalwayImage.jpg" />
+                            <TextBlock Name="athenryBio"
+                           Margin="0,10,0,0"
                            HorizontalAlignment="Center"
-                           VerticalAlignment="Center"/> 
-
-
-            </Frame>
-            
-        </SplitView.Content>
-    </SplitView>
+                           Style="{StaticResource Desc}"
+                           TextWrapping="Wrap"
+                           Text="Welcome to the Galway Soccer Guide. This application contains information the teams currently playing soccer in the four five divisons of junior soccer in Galway.Please click on of the links on the side were you can view clubs locations, and a link for more information about the clubs. You can also add a player and give him a club and position by click the add player tab and you can view the players that you have added in the read players tab , from which players can be added." />
+                        </StackPanel>
+                    </Frame>
+                </SplitView.Content>
+            </SplitView>
+        </ScrollViewer>
+    </Grid>
 </Page>

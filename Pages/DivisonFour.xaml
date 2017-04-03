@@ -7,6 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
     <Page.Resources>
+        <!--Sets up style for textboxs and buttons -->
         <Style TargetType="TextBlock" x:Key="Club">
             <Setter Property="FontSize" Value="36"></Setter>
             <Setter Property="Foreground" Value="#F8CF8B"></Setter>
@@ -24,14 +25,6 @@
             <Setter Property="HorizontalAlignment" Value="Center"></Setter>
         </Style>
     </Page.Resources>
-    <Page.BottomAppBar>
-        <CommandBar>
-            <CommandBar.Content>
-                <Grid/>
-            </CommandBar.Content>
-            <AppBarButton Name="Home" Icon="Home" Label="Home" Click="Home_Click"/>
-        </CommandBar>
-    </Page.BottomAppBar>
     <Grid Background="#3A4F41">
         <ScrollViewer
                 Grid.Row="0" 
@@ -39,9 +32,9 @@
                 VerticalScrollBarVisibility="Auto"
             >
 
-            <StackPanel Orientation="Vertical" VerticalAlignment="Stretch" >
+            <StackPanel Orientation="Vertical" VerticalAlignment="Stretch" > <!--Creates a stack panel-->
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
-                <Image Name="claregalwayImg" Source="/Assets/GalwayImage.jpg" />
+                <Image Name="claregalwayImg" Source="/Assets/GalwayImage.jpg" /> <!--Gets this image -->
                 <TextBlock
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
@@ -54,11 +47,12 @@
                            Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="Claregalway Football Club play their home games in East Uniteds ground. I was unable to find more information on this club." />
+                <!--If clicked go to this event handler -->
                 <Button Name="clareGalwayLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource Buttons}"
                     Height="50"
-                    Click="clareGalwayLoc_Click"
+                    Click="clareGalwayLoc_Click" 
                     HorizontalAlignment="Center"
                     ></Button>
                 

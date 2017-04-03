@@ -1,0 +1,61 @@
+﻿<Page
+    x:Class="MobileAppProject.Pages.ReadPlayers"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MobileAppProject.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <!--LayoutRoot is the root grid where all page content is placed-->
+        <Grid x:Name="LayoutRoot" Background="Transparent">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!--TitlePanel contains the name of the application and page title-->
+            <StackPanel Grid.Row="0" Margin="0,17,0,28" HorizontalAlignment="Center">
+                <TextBlock Text="List of Players" Margin="0,-7,0,0" FontSize="30"/>
+            </StackPanel>
+
+            <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <StackPanel Width="400" Orientation="Horizontal" Grid.Row="0">
+                    <Button  Margin="20,0,0,0" Content="Add Employee"  Click="AddPlayer_Click"/>
+                </StackPanel>
+
+
+                <ListBox Background="Gray" Margin="6" Height="auto" BorderThickness="2" MaxHeight="580" Grid.Row="1" x:Name="listBoxobj" SelectionChanged="listBoxobj_SelectionChanged">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Width="350" >
+                                <Border Margin="5" BorderBrush="White" BorderThickness="1">
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                        </Grid.RowDefinitions>
+
+                                        <TextBlock Margin="5,0,0,0" Grid.Row="0" x:Name="NametxtBx" TextWrapping="Wrap" Text="{Binding playerName}" FontSize="28" Foreground="White"/>
+                                        <TextBlock Grid.Row="0" Text=">" FontSize="28"  HorizontalAlignment="Right" VerticalAlignment="Center" Foreground="White"/>
+                                        <TextBlock Margin="5,0,0,0" Grid.Row="1" x:Name="ClubtxtBx"  TextWrapping="Wrap" Foreground="White" FontSize="18" Text="{Binding playerClub}" />
+                                        <TextBlock Margin="5,20,0,0" Grid.Row="1" x:Name="PositiontxtBx"  TextWrapping="Wrap" Foreground="White" FontSize="18" Text="{Binding playerPosition}" />
+                                        <TextBlock HorizontalAlignment="Right" Margin="0,0,35,0" Grid.Row="3" x:Name="CreateddateTxt" Foreground="White" FontSize="18" TextWrapping="Wrap" Text="{Binding CreationDate}" />
+                                    </Grid>
+                                </Border>
+                            </Grid>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </Grid>
+
+        </Grid>
+
+
+    </Grid>
+</Page>

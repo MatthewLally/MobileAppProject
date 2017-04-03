@@ -9,6 +9,7 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <!--Creates a new map using the map token obtained from bing -->
         <Maps:MapControl Name ="myMap"
                          MapServiceToken="OVnKjZiFZTxTocoCdaxe~B9ERlkloB6zlh2HWhylsKg~AsORWt9t6si63C-Xm-RAoNfTMvXbxNe4fByuohZqxz1XQ_HO4WEX6afXx7v948bo"
                          ></Maps:MapControl>

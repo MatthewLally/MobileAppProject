@@ -29,9 +29,10 @@ namespace MobileAppProject.Pages
         }
         private void AthenryClick(object sender, RoutedEventArgs e)
         {
-            BasicGeoposition cityPosition = new BasicGeoposition() { Latitude = 53.3084, Longitude = -8.7672 };
-            Geopoint cityCenter = new Geopoint(cityPosition);
-            Frame.Navigate(typeof(Map), cityCenter);
+            BasicGeoposition cityPosition = new BasicGeoposition() { Latitude = 53.3084, Longitude = -8.7672 }; //Sets coordinates here as the new city position
+            Geopoint cityCenter = new Geopoint(cityPosition);//sets city center as city posistion
+            Frame.Navigate(typeof(Map), cityCenter); //Navigates to this point on the map page
+            //Code is essentially repeated throughout the application
         }
         private void MervueClick(object sender, RoutedEventArgs e)
         {

@@ -15,6 +15,11 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Microsoft.EntityFrameworkCore;
+using Windows.Storage;
+using SQLite;
+using MobileAppProject.PageHelpers;
+using System.Threading.Tasks;
 
 namespace MobileAppProject
 {
@@ -27,10 +32,37 @@ namespace MobileAppProject
         /// Initializes the singleton application object.  This is the first line of authored code
         /// executed, and as such is the logical equivalent of main() or WinMain().
         /// </summary>
+        public static string DB_PATH = Path.Combine(Path.Combine(ApplicationData.Current.LocalFolder.Path, "dbPlayer.sqlite"));
+
+
         public App()
         {
             this.InitializeComponent();
-            this.Suspending += OnSuspending;
+            //Create the table if it doesn't exist
+            if (!CheckFileExists("dbPlayer.sqlite").Result)
+            {
+                //create a new connection to the db path specified above
+                using (var db = new SQLiteConnection(DB_PATH))
+                {
+                    //create the table from the employees.cs in the model
+                    db.CreateTable<Players>();
+                }
+            }
+            this.Suspending += this.OnSuspending;
+        }
+        private async Task<bool> CheckFileExists(string fileName)
+        {
+            try
+            {
+                var store = await Windows.Storage.ApplicationData.Current.LocalFolder.GetFileAsync(fileName);
+                //return true if the file exists
+                return true;
+            }
+            catch
+            {
+            }
+            //return false if the file doesnt exist, so we can create the table (above and in dbHelper)
+            return false;
         }
 
         /// <summary>
