@@ -1,7 +1,7 @@
 # MobileAppProject
 3rd year software development project
 
-###Author - Matthew Lally - G00322757
+### Author - Matthew Lally - G00322757
 
 ## Project Brief
 This Repository contains the code for 3rd Year Software Development Project for my module Mobile Applications Development. The lecturer is Damien Costello.
