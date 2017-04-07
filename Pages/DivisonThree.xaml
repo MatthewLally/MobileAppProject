@@ -24,14 +24,6 @@
             <Setter Property="HorizontalAlignment" Value="Center"></Setter>
         </Style>
     </Page.Resources>
-    <Page.BottomAppBar>
-        <CommandBar>
-            <CommandBar.Content>
-                <Grid/>
-            </CommandBar.Content>
-            <AppBarButton Name="Home" Icon="Home" Label="Home" Click="Home_Click"/>
-        </CommandBar>
-    </Page.BottomAppBar>
     <Grid Background="#3A4F41">
         <ScrollViewer
                 Grid.Row="0" 

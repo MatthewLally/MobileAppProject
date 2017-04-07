@@ -1,0 +1,7 @@
+﻿[ResourceMetadata]
+"ResourceId"			"filemap.scale-400"
+"ResourceDimensions"		"scale-400"
+
+[Files]
+"C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\obj\x64\Release\filemap.scale-400.pri"			"resources.pri"
+"C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\obj\x64\Release\PackageLayout\Assets\galwayfa150.scale-400.png"			"Assets\galwayfa150.scale-400.png"

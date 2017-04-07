@@ -26,7 +26,7 @@
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
                 <StackPanel Width="400" Orientation="Horizontal" Grid.Row="0">
-                    <Button  Margin="20,0,0,0" Content="Add Employee"  Click="AddPlayer_Click"/>
+                    <Button  Margin="20,0,0,0" Content="Add Player"  Click="AddPlayer_Click"/>
                 </StackPanel>
 
 

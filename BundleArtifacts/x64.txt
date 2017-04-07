@@ -1,0 +1,2 @@
+MainPackage=C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\bin\x64\Release\MobileAppProject_1.1.3.0_x64.appx
+SymbolPackage=C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\AppPackages\MobileAppProject_1.1.3.0_Test\MobileAppProject_1.1.3.0_x64.appxsym

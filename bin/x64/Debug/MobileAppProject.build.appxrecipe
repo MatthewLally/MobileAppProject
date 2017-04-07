@@ -9,7 +9,7 @@
     <SolutionConfiguration>Debug|x64</SolutionConfiguration>
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>06a0ac0d-5745-4c71-b277-4410d4e0a94d</PackageIdentityName>
-    <PackageIdentityPublisher>CN=Owner</PackageIdentityPublisher>
+    <PackageIdentityPublisher>CN=449316D1-DD43-4E21-A0D8-DEBD808B9350</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
@@ -454,14 +454,85 @@
     <AppxPackagedFile Include="C:\Users\Owner\.nuget\packages\System.Xml.XmlSerializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\150x150.png">
+      <PackagePath>Assets\150x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\150x150.scale-100.png">
+      <PackagePath>Assets\150x150.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\200x200.scale-100.png">
+      <PackagePath>Assets\200x200.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\310x150.png">
+      <PackagePath>Assets\310x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\310x150.scale-100.png">
+      <PackagePath>Assets\310x150.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\310x310.png">
+      <PackagePath>Assets\310x310.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\310x310.scale-100.png">
+      <PackagePath>Assets\310x310.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\44x44.png">
+      <PackagePath>Assets\44x44.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\44x44.scale-100.png">
+      <PackagePath>Assets\44x44.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\50x50.png">
+      <PackagePath>Assets\50x50.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\71x71.png">
+      <PackagePath>Assets\71x71.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\71x71.scale-100.png">
+      <PackagePath>Assets\71x71.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\athenry.png">
       <PackagePath>Assets\athenry.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\corribceltic.png">
       <PackagePath>Assets\corribceltic.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\galwayfa150.png">
+      <PackagePath>Assets\galwayfa150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\galwayfa150.scale-100.png">
+      <PackagePath>Assets\galwayfa150.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\galwayfa150.scale-125.png">
+      <PackagePath>Assets\galwayfa150.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\galwayfa150.scale-150.png">
+      <PackagePath>Assets\galwayfa150.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\galwayfa150.scale-200.png">
+      <PackagePath>Assets\galwayfa150.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\galwayfa150.scale-400.png">
+      <PackagePath>Assets\galwayfa150.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\galwayfa600.png">
+      <PackagePath>Assets\galwayfa600.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\galwayhibs.png">
       <PackagePath>Assets\galwayhibs.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\GalwayImage.scale-200.png">
+      <PackagePath>Assets\GalwayImage.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\merlinwoods.png">
       <PackagePath>Assets\merlinwoods.png</PackagePath>
@@ -481,24 +552,23 @@
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\tuamceltic.png">
       <PackagePath>Assets\tuamceltic.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
@@ -506,7 +576,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\barna.jpg">
       <PackagePath>Assets\barna.jpg</PackagePath>

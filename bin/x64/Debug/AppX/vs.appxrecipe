@@ -9,32 +9,32 @@
     <SolutionConfiguration>Debug|x64</SolutionConfiguration>
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>06a0ac0d-5745-4c71-b277-4410d4e0a94d</PackageIdentityName>
-    <PackageIdentityPublisher>CN=Owner</PackageIdentityPublisher>
+    <PackageIdentityPublisher>CN=449316D1-DD43-4E21-A0D8-DEBD808B9350</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>9C2028508625529346A6494C88C670471142BDB7DE57F029EB1222A162E627FF</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>06a0ac0d-5745-4c71-b277-4410d4e0a94d_1.0.0.0_x64__ckpvgz13cfhxc</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>06a0ac0d-5745-4c71-b277-4410d4e0a94d_ckpvgz13cfhxc!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>06a0ac0d-5745-4c71-b277-4410d4e0a94d</RegisteredPackageID>
-    <RegisteredPackagePublisher>CN=Owner</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <RegisteredManifestChecksum>4E61D18EB5EA9E07D2F4958F2E124E76FB0DC79C12D873F8432A4661DCE1761B</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>4457MatthewLally.GalwaySoccerGuide_1.1.3.0_x64__q5fry9njw57je</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>4457MatthewLally.GalwaySoccerGuide_q5fry9njw57je!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>4457MatthewLally.GalwaySoccerGuide</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=449316D1-DD43-4E21-A0D8-DEBD808B9350</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.3.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-04-03T16:28:25.160</Modified>
+      <Modified>2017-04-04T22:42:26.378</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\bin\x64\Debug\MobileAppProject.exe">
       <PackagePath>entrypoint\MobileAppProject.exe</PackagePath>
-      <Modified>2017-04-03T16:28:10.969</Modified>
+      <Modified>2017-04-04T22:42:09.332</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\.nuget\packages\Microsoft.AspNetCore.Hosting.Abstractions\1.1.1\lib\netstandard1.3\Microsoft.AspNetCore.Hosting.Abstractions.dll">
       <PackagePath>Microsoft.AspNetCore.Hosting.Abstractions.dll</PackagePath>
@@ -608,6 +608,64 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T22:15:04.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\150x150.png">
+      <PackagePath>Assets\150x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-04T20:37:43.318</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\150x150.scale-100.png">
+      <PackagePath>Assets\150x150.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-04T20:37:43.318</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\200x200.scale-100.png">
+      <PackagePath>Assets\200x200.scale-100.png</PackagePath>
+      <Modified>2017-04-04T20:37:49.695</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\310x150.png">
+      <PackagePath>Assets\310x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-04T20:37:55.951</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\310x150.scale-100.png">
+      <PackagePath>Assets\310x150.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-04T20:37:55.951</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\310x310.png">
+      <PackagePath>Assets\310x310.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-04T20:38:08.605</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\310x310.scale-100.png">
+      <PackagePath>Assets\310x310.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-04T20:38:08.605</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\44x44.png">
+      <PackagePath>Assets\44x44.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-04T20:37:22.579</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\44x44.scale-100.png">
+      <PackagePath>Assets\44x44.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-04T20:37:22.579</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\50x50.png">
+      <PackagePath>Assets\50x50.png</PackagePath>
+      <Modified>2017-04-04T20:37:29.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\71x71.png">
+      <PackagePath>Assets\71x71.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-04T20:37:36.562</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\71x71.scale-100.png">
+      <PackagePath>Assets\71x71.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-04T20:37:36.562</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\athenry.png">
       <PackagePath>Assets\athenry.png</PackagePath>
       <Modified>2017-03-23T16:25:52.047</Modified>
@@ -616,9 +674,42 @@
       <PackagePath>Assets\corribceltic.png</PackagePath>
       <Modified>2017-03-27T13:41:35.284</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\galwayfa150.png">
+      <PackagePath>Assets\galwayfa150.png</PackagePath>
+      <Modified>2017-04-04T19:46:01.029</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\galwayfa150.scale-100.png">
+      <PackagePath>Assets\galwayfa150.scale-100.png</PackagePath>
+      <Modified>2017-04-04T19:46:01.029</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\galwayfa150.scale-125.png">
+      <PackagePath>Assets\galwayfa150.scale-125.png</PackagePath>
+      <Modified>2017-04-04T19:46:01.029</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\galwayfa150.scale-150.png">
+      <PackagePath>Assets\galwayfa150.scale-150.png</PackagePath>
+      <Modified>2017-04-04T19:46:01.029</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\galwayfa150.scale-200.png">
+      <PackagePath>Assets\galwayfa150.scale-200.png</PackagePath>
+      <Modified>2017-04-04T19:46:01.029</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\galwayfa150.scale-400.png">
+      <PackagePath>Assets\galwayfa150.scale-400.png</PackagePath>
+      <Modified>2017-04-04T19:50:08.849</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\galwayfa600.png">
+      <PackagePath>Assets\galwayfa600.png</PackagePath>
+      <Modified>2017-04-04T19:50:08.849</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\galwayhibs.png">
       <PackagePath>Assets\galwayhibs.png</PackagePath>
       <Modified>2017-03-29T16:00:03.620</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\GalwayImage.scale-200.png">
+      <PackagePath>Assets\GalwayImage.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-04T20:48:28.583</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\merlinwoods.png">
       <PackagePath>Assets\merlinwoods.png</PackagePath>
@@ -644,38 +735,37 @@
       <PackagePath>Assets\tuamceltic.png</PackagePath>
       <Modified>2017-03-29T16:02:44.616</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <Modified>2017-04-04T20:37:55.951</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2015-09-20T17:30:08.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T17:30:08.000</Modified>
+      <Modified>2017-04-04T20:48:28.583</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T17:30:08.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T17:30:08.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T17:30:08.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T17:30:08.000</Modified>
+      <Modified>2017-04-04T20:37:29.938</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T17:30:08.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\Assets\barna.jpg">
@@ -772,7 +862,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\bin\x64\Debug\MobileAppProject.xr.xml">
       <PackagePath>MobileAppProject.xr.xml</PackagePath>
-      <Modified>2017-04-03T16:28:09.347</Modified>
+      <Modified>2017-04-04T15:09:20.683</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -781,11 +871,11 @@
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-04-03T16:28:22.301</Modified>
+      <Modified>2017-04-04T22:42:23.343</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\bin\x64\Debug\Core\MobileAppProject.exe">
       <PackagePath>MobileAppProject.exe</PackagePath>
-      <Modified>2017-04-03T16:28:25.122</Modified>
+      <Modified>2017-04-04T22:42:26.356</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,14 @@
+﻿[ResourceMetadata]
+"ResourceId"			"filemap.scale-100"
+"ResourceDimensions"		"scale-100"
+
+[Files]
+"C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\obj\ARM\Release\filemap.scale-100.pri"			"resources.pri"
+"C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\obj\ARM\Release\PackageLayout\Assets\Wide310x150Logo.scale-100.png"			"Assets\Wide310x150Logo.scale-100.png"
+"C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\obj\ARM\Release\PackageLayout\Assets\galwayfa150.scale-100.png"			"Assets\galwayfa150.scale-100.png"
+"C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\obj\ARM\Release\PackageLayout\Assets\71x71.scale-100.png"			"Assets\71x71.scale-100.png"
+"C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\obj\ARM\Release\PackageLayout\Assets\44x44.scale-100.png"			"Assets\44x44.scale-100.png"
+"C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\obj\ARM\Release\PackageLayout\Assets\310x310.scale-100.png"			"Assets\310x310.scale-100.png"
+"C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\obj\ARM\Release\PackageLayout\Assets\310x150.scale-100.png"			"Assets\310x150.scale-100.png"
+"C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\obj\ARM\Release\PackageLayout\Assets\200x200.scale-100.png"			"Assets\200x200.scale-100.png"
+"C:\Users\Owner\Documents\MobileAppProject\MobileAppProject\obj\ARM\Release\PackageLayout\Assets\150x150.scale-100.png"			"Assets\150x150.scale-100.png"
