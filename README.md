@@ -30,3 +30,9 @@ Overall I feel I greatly improved my knowledge of C# throughout the project. I f
 
 ## Submission
 My appliction is currently up for certification on the windows store which should be completed soon. My Developer name is Matthew Lally and the application name is Galway Soccer Guide.
+
+## References
+https://blogs.msdn.microsoft.com/quick_thoughts/2015/06/01/windows-10-splitview-build-your-first-hamburger-menu/
+https://blogs.windows.com/buildingapps/2017/02/06/using-sqlite-databases-uwp-apps/#hPVTJVbhBqKRW5e2.97
+https://msdn.microsoft.com/en-us/library/windows/apps/xaml/dn615001.aspx
+https://www.tutorialspoint.com/windows10_development/windows10_development_sqlite_database.htm
