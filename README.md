@@ -36,3 +36,6 @@ https://blogs.msdn.microsoft.com/quick_thoughts/2015/06/01/windows-10-splitview-
 https://blogs.windows.com/buildingapps/2017/02/06/using-sqlite-databases-uwp-apps/#hPVTJVbhBqKRW5e2.97
 https://msdn.microsoft.com/en-us/library/windows/apps/xaml/dn615001.aspx
 https://www.tutorialspoint.com/windows10_development/windows10_development_sqlite_database.htm
+
+## Link on store
+https://www.microsoft.com/en-us/store/p/galway-soccer-guide/9njltv6rjvr9
